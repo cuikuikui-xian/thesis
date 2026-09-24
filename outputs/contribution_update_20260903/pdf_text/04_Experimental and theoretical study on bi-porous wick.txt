@@ -1,0 +1,1132 @@
+
+
+===== PAGE 1 =====
+ViewOnline
+ExportCitation
+RESEARCH ARTICLE |  DECEMBER 03 2024
+Experimental and theoretical study on performance of bi-
+porous wick for passive phase-change devices 
+Xiaoping Yang (杨小平) 
+  ; Qingjie Cui (崔庆杰) 
+  ; Ziyi You (尤紫溢); Jie Liu (刘杰); Yonghai Zhang (张永海);
+Jinjia Wei (魏进家)  
+Physics of Fluids 36, 123308 (2024)
+https://doi.org/10.1063/5.0240095
+Articles You May Be Interested In
+Measurement of biomaterial capillary wick of heat pipe using micro-CT scan
+AIP Conf. Proc. (September 2020)
+An extended Kozeny-Carman-Klinkenberg model for gas permeability in micro/nano-porous media
+Physics of Fluids (November 2019)
+Kozeny–Carman relations and image processing methods for estimating Darcy’s constant
+J. Appl. Phys. (September 1987)
+ 15 May 2026 13:02:56
+
+
+===== PAGE 2 =====
+Experimental and theoretical study on
+performance of bi-porous wick for passive
+phase-change devices
+Cite as: Phys. Fluids 36, 123308 (2024); doi: 10.1063/5.0240095
+Submitted: 24 September 2024 . Accepted: 8 November 2024 .
+Published Online: 3 December 2024
+Xiaoping Yang (杨小平),1
+ Qingjie Cui (崔庆杰),1
+ Ziyi You (尤紫溢),1 Jie Liu (刘杰),2 Yonghai Zhang (张永海),1
+and Jinjia Wei (魏进家)1,a)
+AFFILIATIONS
+1College of Chemical Engineering and Technology, Xi ’an Jiaotong University, Xi ’an 710049, Shaanxi, China
+2QiLu Research Institute, Aerospace Information Research Institute, Chinese Academy of Sciences, Jinan 100094, Shandong, China
+a)Author to whom correspondence should be addressed: jjwei@xjtu.edu.cn. Tel.: þ86-029-82664375
+ABSTRACT
+The driving force of the fluid in passive phase-change devices is provided by the porous wick, and thus, the porous wick is one of the key fac-
+tors determining the performance of these devices. In this work, the properties of sintered nickel powder porous wicks were systematically
+studied to give a comprehensive evaluation. Three particle sizes (average diameter 2 –20 lm), pore-forming agent concentration (0% –30%wt),
+and two preparation methods [loose sintering (LS) and cold press sintering] were utilized to prepare 42 samples. The results showed that
+with the increase in particle size and pore-forming agent concentration and the decrease in preparation pressure, the capillary performance
+was enhanced due to the improvement in the connectivity of internal pores. However, the strength of the wick decreased. Additionally, an
+improved model for the capillary wick performance and permeability was proposed by combining the traditional Kozeny –Carman permeabil-
+ity formula with an enhanced permeability equation based on the research outcomes of Byon and Kin. The improved model was specifically
+optimized for scenarios involving the pore-forming agent. The predicted results agreed well with the experimental data, thoroughly validating
+the effectiveness of the developed model.
+Published under an exclusive license by AIP Publishing. https://doi.org/10.1063/5.0240095
+NOMENCLATURE
+A cross-sectional area of the wick, m 2
+C Kozeny–Carman constant
+c constant
+CPS cold pressure sintering
+D pore-forming agent size
+d particle diameter, m
+dp particle size of pore-forming agent, m
+ds diameter of sintering neck, m
+g acceleration of gravity, m/s 2
+H rising height of the liquid, m
+K relative permeability, m /C1 (Pa/C1 s)/C0 1
+k permeability, m2
+L length of the wick, m
+LS loose sintering
+M mass, kg
+P pressure, Pa
+reff effective pore radius, m
+t time, s
+V volume, m3
+w mass fraction
+Greek letters
+e porosity of the wick
+l kinetic viscosity of liquid, Pa /C1 s
+q density, kg/m3
+u pore-forming agent concentration
+U off-powder rate
+Subscripts
+a apparent
+c capillary force
+dry dry wick
+Phys. Fluids 36, 123308 (2024); doi: 10.1063/5.0240095 36, 123308-1
+Published under an exclusive license by AIP Publishing
+Physics of Fluids ARTICLE pubs.aip.org/aip/pof
+ 15 May 2026 13:02:56
+
+
+===== PAGE 3 =====
+L liquid
+loss dilapidation
+Ni nickel
+pool liquid pool
+o original wick
+pf pore-forming agent
+s sintering neck
+sat wick saturated with liquid
+v wick after supersonic vibration
+I. INTRODUCTION
+A. Background and research status
+Passive phase-change heat dissipation methods utilizing capillary
+force have garnered attention for cooling electronic devices due to their
+lack of moving parts and external power requirements. Heat pipes
+(HP), including traditional heat pipes, vapor chambers (VC), loop heat
+pipes (LHP), and capillary pumped loops (CPL), are key passive
+phase-change devices. HPs offer advantages, such as small temperature
+differences during heat transfer, high heat-transfer capacity, long
+transfer distances, and flexible configurations, making them ideal for
+microgravity environments like spacecraft and satellites.
+1,2 They are
+also widely used in terrestrial applications, including central processing
+units (CPUs)/graphics processing units (GPUs), light emitting diode
+lights (LED lights),
+3,4 nuclear reactors,5 and solar heat utilization.6
+With increasing interest in space exploration since the 20th cen-
+tury, numerous satellites have been launched, highlighting the need for
+efficient heat dissipation as electronic device integration on these satel-
+lites grows.7,8 The capillary force generated by porous wicks drives the
+working fluid cycle in passive phase-change devices; thus, the perfor-
+mance of these devices is significantly influenced by the wick ’s struc-
+ture and properties.
+9–12
+According to the Laplace–Young Equation, the average radius of
+the wick pores has an inverse proportionality with the capillary force.13
+However, when the pore radius decreases, the flow resistance of fluid
+inside the wick increases, which leads to a conflict between the increas-
+ing capillary force and the decreasing flow resistance. Dependent on a
+variety of factors, for example, materials, particle size, preparation
+pressure, sintering temperature, porosity, and pore size of the porous
+wick, these factors have a significant effect on the performance of pas-
+sive phase-change devices. The porous wicks that are widely used are
+groove,
+14 sintered wire meshes, 15 metal foam, 16 and sintered metal
+powder.17,18 For widely used sintered metal powder wicks with the
+best comprehensive performance, the effective pore radius is mainly
+determined by particle size, 19 whose impact on the heat pipe ’s heat
+transfer characteristics has been investigated by some researchers.
+Deng et al.
+20 prepared various nickel powder wicks using four different
+particle sizes (<50–150 lm) and found that as particle size increased,
+permeability and performance improved. Kirdponpattaraet al.21 found
+that the wick sintered by larger particles had a smaller contact angle
+and that the performance was closely relevant to the particle size of the
+wick, which was also of great importance in phase-change heat trans-
+fer. Li et al.
+18 reported that the particle size of copper powder wicks
+had a considerable effect on the performance of LHP and experimen-
+tally revealed that the optimum particle size fell between 75 and
+100 lm. To improve the capillary performance of sintered powder
+wicks, they also prepared nanostructures on sintered copper particles
+by the alloying–dealloying method.
+22 According to Weibel et al.,23 for
+a wick with a certain thickness, the boiling heat transfer coefficient
+peaked when the particle size was in the range of 106 –150 lm.
+According to research by Xu et al.24 on the relationship between LHP
+performance and particle size, startup and heat transfer performance
+were at their best when the wick’s particle size was 139lm.
+Except for particle size, the performance of a sintered powder wick
+is also affected by particle distribution,25 packing process,26 and sintering
+parameters.27 For example, Linet al.25 found that powder with uniform
+particle size had the best capillary performance, which could lead to the
+best thermal performance of heat pipes. Wuttijumnonget al.
+27 reported
+that the sintering performance had a remarkable influence on the
+dimensions and strength of the porous wick. Nevertheless, the traditional
+way of selecting material, particle size, preparation method, and sintering
+temperature to control the internal porous structure of a wick has great
+limitations in regulating pore radius and porosity. For instance, while the
+loose sintering (LS) method is a better way to achieve high porosity, it
+would weaken the wick’s strength. In an operating HP, a small portion
+of the pores adhering to the heat substrate provides capillary force, while
+t h er e s tj u s to f f e r sap a t hf o rt h el i q u i d’s flow. Hence, a wick with one
+constant pore radius is insufficient for HP. Recently, to deal with the
+shortcomings of the conventional wick, various researchers prepared bi-
+porous wicks by mixing a soluble pore-forming agent into the metal
+powder. Mathewset al.
+28 sintered a multi-layer copper-nickel wick using
+C10H8 as a pore-forming agent and investigated how the sintering tem-
+perature affected the wick’s thermal conductivity, porosity, permeability,
+and pore size. He et al.29 studied how the pore-forming agent’sp a r t i c l e
+size and mass ratio affected the porosity, permeability, and capillary effi-
+cacy. The results showed that the permeability and capillary performance
+of the wick were influenced by the structure, size, and distribution of the
+p o r e si na d d i t i o nt op o r o s i t y .W uet al.
+30 prepared bi-porous wicks by
+using polymethyl methacrylate (PMMA) as a pore-forming agent and
+claimed that the 250–297lm sized and 35 vol. % PMMA brought the
+best thermal performance of a LHP. Li et al.,
+31 Yeh et al.,32 and Li
+et al.33 fabricated bi-porous wicks (particle radius¼ 2.2–3 lm) for LHP.
+The impact of the pore-forming agent concentration on the wick ’s
+porosity, permeability, and capillary performance was investigated.
+To summarize, the sintered metal powder wick is more favorable
+in phase change devices because of two reasons: (1) high thermal con-
+ductivity leads to high boiling/evaporating efficiency; (2) easy to adhere
+to the baseplate of the evaporator, which can reduce the contact thermal
+resistance. On this basis, bi-porous wicks with small and large pores,
+multi-layer wicks with different materials, and multi-scale wicks with
+micro/nanostructures have been reported to be more effective.
+22,28–33
+B. Motivations of this study
+Although many scholars have done research on sintered metal
+powder wicks for heat pipes, there is still a lack of a general fabrication
+process, which makes it difficult to fabricate the wicks with controllable
+comprehensive performance in batches and to fulfill the cooling
+requirements of the rapidly advancing electronics. The main reason is
+that there are many factors that affect the sintered powder wick, such
+as molding process, sintering temperature, particle size, particle shape,
+pore former concentration. However, most of the literature only con-
+siders one or two of these factors. For instance, Xin et al.
+34 conducted
+experimental investigations on capillary wick using nickel-copper
+alloys, exploring the effects of different sintering methods, specifically
+cold pressing and loose sintering, on the performance of the capillary
+Physics of Fluids ARTICLE pubs.aip.org/aip/pof
+Phys. Fluids 36, 123308 (2024); doi: 10.1063/5.0240095 36, 123308-2
+Published under an exclusive license by AIP Publishing
+ 15 May 2026 13:02:56
+
+
+===== PAGE 4 =====
+wicks. Chien et al. 32 examined the influence of pore-forming agent
+concentration and sintering temperature on the performance of dual-
+porosity capillary wicks through experimental studies. Byon and Kin
+et al.
+35 investigated the relationship between powder particle size and
+pore-forming agent dimensions, establishing a semi-analytical model
+to predict the performance of dual-porosity capillary wicks. However,
+this model did not account for the potential influence of pore-forming
+agent concentration on the performance of dual-porosity capillary
+wicks. Furthermore, research on the performance of wick is mainly
+limited to pore characteristics and capillary performance, which is
+insufficient to give comprehensive guiding suggestions for fabrication.
+For example, although adding pore formers can significantly improve
+the porosity and permeability, the strength of the wick may be weak-
+ened at the same time. However, there are few reports on this issue.
+Thus, it is critically necessary to conduct further research on the
+impact of various factors on the comprehensive performance of a
+wick.
+Based on the above discussion, an experimental and theoretical
+study was carried out in this paper to look into the impact of particle
+size, the concentration of pore-forming agents, and preparation meth-
+ods on the comprehensive performance of the bi-porous wick, includ-
+ing the micro-scale structure, pore structure, porosity, permeability,
+capillary performance, as well as strength. In addition, this paper suc-
+cessfully established a comprehensive model for the performance and
+permeability of capillary wicks by combining the traditional Kozeny–
+Carman permeability formula with an enhanced permeability equation
+specifically designed for pore-forming agents. The liquid absorption
+curve under different pore-forming agent concentrations, particle sizes,
+and preparation methods was obtained. The present work can provide
+important guidance in preparing a high-performance porous wick.
+II. EXPERIMENTAL METHODS
+A. Fabrication of nickel powder wick
+The preparation conditions for a sintered nickel powder wick are
+shown in Table I . In this work, 42 pieces of wick were made using
+spherical nickel powder with three distinct average particle diameters
+(d ¼2, 10, and 20 lm) and sodium carbonate (Na
+2CO3)w i t ha na v e r -
+age particle size of 100 lm .T h em a s sr a t eo fN a2CO3 particles was set
+at u ¼ 0%, 5%, 10%, 15%, 20%, 25%, and 30% to study the impact of
+pore-forming agent concentration on the structure and performance
+of the wicks. The nickel powder and Na 2CO3 particles were placed
+into a ball grinding mill for 1 h to realize homogeneous mixing. The
+loose sintering (LS) and cold pressure sintering (CPS) methods were
+used to research the impact of packaging pressure. In the LS method,
+the mixed powder was placed in the mold under loose conditions and
+sintered together with the mold. In the CPS method, the pressure was
+set at 200 MPa by a tablet press at room temperature. The powder was
+briquetted in a square graphite mold to form square blocks [Fig. 1(a)],
+which were then placed into an automatic vacuum furnace for sinter-
+ing. Before the sintering, a vacuum pump was used to remove the oxy-
+gen in the furnace for 30 min. Then, the inert gas (argon) was released
+into the furnace during the whole sintering process to avoid oxidation.
+The LS and CPS methods shared the same sintering process. The fur-
+nace temperature first increased up to 800
+/C14 C at a rate of 5 /C14 C/min,
+was maintained at 800/C14 C for 60 min, and then dropped to 300 /C14 Ca ta
+rate of 5 /C14 C/min. Finally, the samples were naturally cooled to room
+temperature. After the sintering process, the samples were placed in
+distilled water to remove Na2CO3 and cleaned with ethanol to remove
+the dissociative nickel particles and bur. The clean samples were finally
+placed in a vacuum oven, and the whole preparation process was fin-
+i s h e d .T h ei m a g eo ft h es a m p l ei ss h o w ni nFig. 1(b).T h ed i m e n s i o n s
+of the graphite mold and sample are given inTable II.
+TABLE I. Preparation conditions of sintered nickel powder wick.
+No.
+Particle size of
+nickel powder d (lm)
+Pore-forming agent
+concentration u (%)
+Particle size of pore-forming
+agent dp (lm)
+Preparation
+method
+Sintering
+parameters
+1–21 2, 10, 20 0, 5, 10, 15, 20, 25, 30 100 LS Temperature: 800 /C14 C;
+period: 60 min
+22–42 2, 10, 20 0, 5, 10, 15, 20, 25, 30 100 CPS (200 MPa) Heating rate: 5 /C14 C/min cooling
+rate: /C0 5 /C14 C/min
+FIG. 1. Schematic diagram of testing device, (a) graphite mold, (b) wick sample,
+and (c) capillary performance test device.
+Physics of Fluids ARTICLE pubs.aip.org/aip/pof
+Phys. Fluids 36, 123308 (2024); doi: 10.1063/5.0240095 36, 123308-3
+Published under an exclusive license by AIP Publishing
+ 15 May 2026 13:02:56
+
+
+===== PAGE 5 =====
+B. Measurements and uncertainties
+1. Porosity
+According to Archimedes principle, 36 the porosity was deter-
+mined by dividing the volume of liquid that was absorbed by the
+apparent volume of the wick,
+e ¼ VL
+Va
+; (1)
+where VL is the volume of absorbed liquid that can be calculated as
+VL ¼ Msat /C0 Mdry
+qL
+; (2)
+where Va is the apparent volume of the wick, Msat is the mass of the
+wick saturated with liquid, Mdry is the mass of the dry wick, and qL is
+the density of liquid.
+2. Strength of the wick
+The strength is an important index to show the durability of the
+wicks. In this work, the connection strength of particles was investi-
+gated using an indirect method. First, the wick was put into an ultra-
+sonic device for 10 min to vibrate and filter out any weakly linked
+particles that were escaping from the wick. Second, the wick was taken
+out of the ultrasonic cleaner for drying and weighing. A dimensionless
+parameter, off-powder rate U, is determined to represent the connec-
+tion strength as
+U ¼
+Mo /C0 Mv
+Mo
+; (3)
+where Mo is the mass of the original wick and Mv is the mass of the
+wick after supersonic vibration. The larger the off-powder rate U,t h e
+weaker the connection strength.
+3. Capillary performance
+The capillary characteristic represents the comprehensive perfor-
+mance of a porous wick because it is the outcome of the interaction
+between resistance and capillary force. In the current work, an elec-
+tronic balance was used to determine the porous wick’s capillary char-
+acteristics, as shown in Fig. 1(c). The sample was first set upon a pool
+of distilled water by a fixed trestle whose height was adjusted to contact
+the bottom of the sample with water. Moreover, the mass of the water
+pool decreased over time with the rise of water under the capillary
+force, which was captured by the electronic balance. Then, the wick ’s
+capillary performance could be expressed as
+MðtÞ¼ M
+poolð0Þ/C0 MpoolðtÞ; (4)
+where Mpoolð0Þ and MpoolðtÞ are the initial and transient masses of the
+water pool, respectively.
+4. Uncertainties
+The porosity, off-powder rate, and capillary performance were
+obtained indirectly by measuring mass and size. The mass of the pool,
+dry wick, and wetted wick were measured by using an electronic bal-
+ance with a range of 220 g and a resolution of 0.0001 g. A vernier cali-
+per with 0.05 mm precision was used to measure the size. The
+uncertainty of direct measurement was related to the precision of
+instruments, written as
+DX ¼
+aﬃﬃ ﬃ
+3
+p ; (5)
+where a is the precision of the measuring instrument.
+The uncertainty of indirect measurement was obtained using the
+error propagation criterion
+DY ¼
+ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+Xn
+i
+@Y
+@Xi
+DXi
+/C18/C19 2
+s
+; (6)
+where Y ¼ f ðX1; X2; …; XnÞ is the indirect measured parameter and
+Xi is the direct measurement quantity.
+According to the above method, the wick mass measurement
+uncertainty was 0.004%. The uncertainty of the height, length, and
+width was 0.8%, 0.1%, and 0.1%, respectively. The uncertainties of
+porosity, off-powder rate, and capillary performance were 0.8%,
+0.006%, and 0.01%, respectively.
+III. RESULTS AND DISCUSSION
+A. Microstructure of pores
+Figure 2 shows the surface pore microstructure of a porous wick
+with various pore-forming agent concentrations at a particle size of
+d ¼ 2 lm. It is evident that large pores appear after the pore-forming
+agent is cleared out, resulting in an increase in porosity and that the
+large pores created by the pore-forming agent are meanwhile sur-
+rounded by small pores created by nickel particles. As the wick is
+placed into the LHP, small pores can exert a powerful capillary force,
+and large pores, which are free at low pore-forming agent concentra-
+tions [ Figs. 2(a) and 2(b)], provide a channel for vapor and
+liquid. Several large pores can be seen connected to one another
+as the amount of pore-forming agent concentration increases
+[Fig. 2(c)].
+Figure 3 shows the impact of the preparation method on the
+wick’s microstructure of 2and 20 lm particles without pore-forming
+agents (u ¼ 0%). It can be seen that the sintering neck of a CPS wick is
+much larger than that of a LS one. For LS, nickel particles are in a point
+contact state at the molding stage. However, for CPS, the pressure
+applied to the powder body enhances the contact area of nickel par-
+ticles or even causes a plastic deformation. After the sintering process,
+the surface energy of the particles decreases, leading to a larger sinter-
+ing neck and stronger connectivity between particles.
+TABLE II. Dimensions of the mold and sample.
+Length,
+mm
+Width,
+mm
+Thickness,
+mm
+Graphite mold #1 27 27 15
+Graphite mold #2
+Frame 85 85 20
+Bore 27 27 20
+Graphite mold #3 27 27 5
+Graphite mold #4 85 85 10
+Wick 26.6 25.6 5
+Physics of Fluids ARTICLE pubs.aip.org/aip/pof
+Phys. Fluids 36, 123308 (2024); doi: 10.1063/5.0240095 36, 123308-4
+Published under an exclusive license by AIP Publishing
+ 15 May 2026 13:02:56
+
+
+===== PAGE 6 =====
+B. Porosity
+Figure 4 shows the relationship between porosity, preparation
+methods, pore-forming agent concentration, and particle size. It can
+be seen that for a certain particle size and preparation method, with an
+increase in pore-forming agent concentration, the porosity rises. After
+the sintering and cleaning processes, the space occupied by the pow-
+der’s pore-forming agent block would convert into large pores, as
+shown in Fig. 2. The quantity of large pores grows along with the con-
+centration of pore-forming agents, which raises porosity. Moreover,
+the porosity of the loosely sintered wicks is much higher than that of
+the CPS ones. Referring to Fig. 3, for the LS method, the arrangement
+of nickel particles is disorganized. The contact type of the particles is a
+point contact, which provides a large number of pores. However, the
+CPS applies external force to the particles during the packaging
+process, which rearranges the particles or even causes plastic deforma-
+tion of the particles. The number of internal pores significantly
+decreased as the particles’ type of interaction changed to surface con-
+tact. The difference in porosity between these two approaches lessens
+as the concentration of the pore-forming agent increases, because at
+high pore-forming agent concentrations, large pores created by the
+pore-forming agent instead of small pores formed by nickel particles
+dominate the internal porous structure.
+It is interesting that for LS, the porosity is independent of the
+nickel particle size at u ¼ 0%, but increases as particle size increases
+for CPS at u ¼ 0%. The reason behind this is that at u ¼ 0%, cold
+pressing causes the particles to rearrange and compact, leading to the
+formation of more pore spaces with larger particle powders, thereby
+increasing porosity. In contrast, during the Loose Sintering process,
+FIG. 2. Pore-forming agent effects on the micromorphology of the surface of porous wick for CPS, (a) u ¼ 10%, (b) u ¼ 20%, and (c) u ¼ 30%.
+FIG. 3. Influence of preparation pressure
+on the surface micromorphology of porous
+wick, (a) LS, d ¼ 2 lm, (b) CPS,
+d ¼ 2 lm, ( c) LS, d ¼ 20 lm, and (d)
+CPS, d ¼ 20 lm.
+Physics of Fluids ARTICLE pubs.aip.org/aip/pof
+Phys. Fluids 36, 123308 (2024); doi: 10.1063/5.0240095 36, 123308-5
+Published under an exclusive license by AIP Publishing
+ 15 May 2026 13:02:56
+
+
+===== PAGE 7 =====
+the variations in porosity formed by naturally packed particles of dif-
+ferent sizes are not significant. Porosity increases with increasing nickel
+particle size, whether for LS or CPS, when pore-forming agent ( u
+> 0%) is added because, during the preparation of the block, smaller
+nickel particles are more mobile than bigger ones around the pore-
+forming agent particles. The movement of nickel particles generally
+leads to low porosity.
+Moreover, a jump in porosity curves occurs in the samples pre-
+pared by 20 lm nickel particles at u > 15%, but not in 2 and 10 lm
+nickel particle samples. Because the 20lm particles have a much lower
+specific surface area and surface energy than small particles, the rela-
+tive dimension of the sintering neck (ratio to the diameter of the parti-
+cle) of 20 lm particles is smaller than that of 2 and 10 lm particles
+(Table III). Hence, 20 lm particle samples are difficult to form large
+scale pore evolution and densification. As the size difference between
+pore-forming agent particles (100lm) and nickel particles (20 lm) is
+small, when pore-forming agent content reaches a certain value, it will
+greatly hinder the migration of nickel particles and reduce the densifi-
+cation degree of the powder body. In cold pressure sintering, the
+applied pressure promotes the interconnection of pore-forming agent
+particles, forming a complex pore network, while the thermal decom-
+position of sodium carbonate releases carbon dioxide. This is the main
+reason for the jump in the porosity curve when pore-forming agent
+content exceeds 15% for 20lm particle samples.
+C. Particle connection strength
+Most works of literature focus on the performance of the porous
+wick, including its porosity, permeability, pore radius, and so on.
+However, the connecting strength of the particles is also an important
+factor that should be considered in applications. The off-powder rate
+was used to represent the strength of the wick.
+Figure 5 shows the off-powder rate under different condi-
+tions. It is clear that when the concentration of the pore-forming
+ingredient is less than 5%, the off-powder rate is almost negligible.
+The off-powder rate rises sharply as the concentration of the pore-
+forming agent rises. Because the pore-forming agent prevents
+nickel particles from contacting one another and reduces the total
+contact area, leading to a small sintering neck. As the pore-
+forming agent concentration is high enough (over 20%), large
+pores connect to each other and further reduce the connection
+strength of nickel particles, as shown in Fig. 2 .M o r e o v e r ,t h er a t e
+of off-powder rises as nickel particle size increases. The reason is
+that under the same sintering conditions, larger particles have a
+smaller sintering neck (Table). In addition, the off-powder rate of
+CPS is much lower than that of LS, which also contributes to their
+difference in sintering neck, as shown in Fig. 3 . The recommended
+pore-forming agent concentrations for LS and CPS are 0% –10%
+and 0%–20%, respectively, to ensure the working life of HP.
+D. Capillary performance of the wick
+A wick with excellent performance should have the following two
+characteristics at the same time: (1) a powerful capillary force to propel
+the working fluid ’s circulation; (2) a high permeability to lower the
+working fluid’s flow resistance. However, the influence of porosity and
+pore size distribution on these two characteristics is conflicting. The
+intricate internal structure of the wick makes the influencing mecha-
+nism complex. The capillary performance of the wick is the result of a
+comprehensive balance of surface tension, contact angle, pore size,
+porosity, and permeability, so the capillary performance can be utilized
+to assess the wick’s overall performance.
+FIG. 4. Influence of pore former concentration, powder particle size, and prepara-
+tion pressure on the porosity of porous wick.
+TABLE III. The neck diameter ds values obtained by measurement of wick of differ-
+ent particle sizes.
+Sintering method Particle size/ lm ds/lm
+Loose sintering
+2 0.8605
+10 4.2130
+20 7.8345
+Cold pressure sintering
+2 1.0474
+10 5.0846
+20 8.4642
+FIG. 5. Influence of pore-forming agent concentration, powder size, and preparation
+pressure on the strength of wick.
+Physics of Fluids ARTICLE pubs.aip.org/aip/pof
+Phys. Fluids 36, 123308 (2024); doi: 10.1063/5.0240095 36, 123308-6
+Published under an exclusive license by AIP Publishing
+ 15 May 2026 13:02:56
+
+
+===== PAGE 8 =====
+Figure 7 shows the capillary performance of the nickel wick under
+various conditions. The working fluid is distilled water. The capillary
+speed is low for ¼0%–15% but increases rapidly for¼ 20%–30% at the
+starting stage of liquid absorption, as shown in Fig. 6(a), because large
+pores created by the pore-forming agent connect with each other
+when u exceeds 20%, which decreases the flow resistance of fluid
+inside the porous wick. Figure 6(b) shows the impact of nickel particle
+size and method of preparation on capillary performance at u ¼ 10%.
+LS wicks outperform CPS wicks in terms of capillary performance.
+The capillary speed and absorbed liquid mass greatly increase as the
+size of the nickel particle increases. Though using larger nickel particles
+will enlarge the average pore radius and weaken the capillary force, it
+can enhance the porosity and decrease the flow resistance. Hence,
+increasing particle size helps to increase capillary performance. It is
+suggested to balance strength and capillary performance.
+E. Mathematical prediction models
+During the liquid absorption process of a porous wick, the liquid
+is subjected to capillary force, gravity, and viscous resistance. A basic
+equation based on energy conservation and force balance can be writ-
+ten as
+DP
+c ¼ DPloss ¼ le
+k H dH
+dt þ qgH; (7)
+where the left term DPc is the capillary force obtained from the
+Laplace–Young Equation, the viscous friction loss is the first term, and
+the gravity loss is the second term. l is the kinetic viscosity of liquid, k
+is the wick’s permeability, e is the porosity of the wick, H is the raising
+height of liquid, dH/dt is the raising speed of liquid, and q is the den-
+sity of liquid.
+The capillary forceDPc can be written as
+DPc ¼ 2r cos h
+reff
+; (8)
+where r is the surface tension of the liquid workpiece, N/m; h is
+the contact angle between the capillary wick and the liquid-
+absorbing workpiece; and reff is the effective pore radius of the
+capillary wick, m, which can be obtained according to the empiri-
+cal formula 37
+reff ¼ 0:21d; (9)
+where d is the particle size of metal powder, m.
+Combining Eqs.(7)–(9)
+2r cos h
+0:21d ¼ le
+K /C1 H /C1 dH
+dt þ qgH: (10)
+In this experiment, the tested capillary wick exhibited a low
+absorption height within a short period. For instance, the capillary
+wick manufactured using the low-density sintering (LS) method, with
+ap o w d e rp a r t i c l es i z eo f1 0lm and pore-forming agents content of
+0%, generated a capillary force of 20.11 kPa. In contrast, the gravita-
+tional loss was only 0.349 kPa, accounting for 1.73% of the capillary
+FIG. 7. Nickel powder sintering neck
+diagram.
+FIG. 6. Capillary performance curve of porous wick, (a) impact of pore-forming agent concentration, CPS; (b) effect of particle size and preparation method s, u ¼ 10%.
+Physics of Fluids ARTICLE pubs.aip.org/aip/pof
+Phys. Fluids 36, 123308 (2024); doi: 10.1063/5.0240095 36, 123308-7
+Published under an exclusive license by AIP Publishing
+ 15 May 2026 13:02:56
+
+
+===== PAGE 9 =====
+force. Therefore, it is reasonable to disregard the influence of gravita-
+tional head on the experimental results,
+2r cos h
+0:21d ¼ le
+K /C1 H /C1 dH
+dt : (11)
+For a given working fluid, it is sufficient to measure the height of
+the fluid’s ascent in the capillary wick and its ascent velocity in order
+to calculate the capillary force. However, due to the complex pore
+structure of powder-sintered capillary wick, it is difficult to directly
+observe the capillary rise height. Consequently, it is possible to trans-
+late this measurement into an observation of absorbed mass, utilizing
+the absorbed mass to represent the equivalent capillary rise height,
+H ¼
+M
+qAe ; (12)
+where M is the suction mass, g;A is the cross-sectional area of capillary
+wick suction, m2. Then, the rising speed of the work mass is
+dH
+dt ¼ dM
+qAedt : (13)
+Bringing Eq. (13) into Eq. (11)
+2r cos h
+0:21d ¼ l
+2KeðqAÞ2 /C1 dM2
+dt : (14)
+Equation (14) can be deformed as
+dM2
+dt ¼ 4r cos hKeðqAÞ2
+0:21dl : (15)
+According to Eq.(15), when the permeability K and the porositye
+is determined, there is a linear relationship between the square of the
+mass pumped by the work mass and the time during the suction process.
+1. Calculation of porosity
+The porosity of the dual-aperture wick can be composed of two
+parts: the porosity eNi formed by the arrangement of nickel powder
+and the porosityePf formed by the pore-forming agent
+e ¼ eNi þ ePf : (16)
+The variation of porosity eNi is primarily influenced by the parti-
+cle size of the nickel powder and the sintering process. To simplify the
+calculation process, a simplified model has been constructed. As
+shown in Fig. 7, the value of porosity e
+Ni is derived from the size of the
+sintering neck
+eNi ¼ k1
+d cos hðÞ 3
+/C0 4
+3 p d
+2
+/C18/C19 3
+d cos hðÞ 3 ; (17)
+h ¼ arctan ds
+d
+/C18/C19
+; (18)
+where d represents the particle size of the nickel powder, ds denotes
+the size of the sintering neck, and h is the angle representing the geo-
+metric relationship between the sintering neck and the diameter of the
+nickel powder.
+Since the size of the sintering neck d
+s is influenced by multiple
+factors such as powder particle size, sintering temperature, and sinter-
+ing time, it becomes challenging to perform accurate calculations using
+conventional mathematical models. Therefore, this study employs
+scanning electron microscope (SEM) images for direct measurement.
+To eliminate measurement errors, all obtained data represent the aver-
+age values of multiple measurements, with specific measurement
+results listed inTable III.
+During the preparation process of the capillary core, the pore-
+forming agent is completely removed by the solution after sintering is
+completed. Therefore, the porosity e
+Pf formed by the pore-forming
+agent can be calculated using the following formula:
+epf ¼ k2
+Vpf
+VNi þ Vpf
+; (19)
+Vpf ¼ w
+1 /C0 w
+qNi
+qpf
+VNi; (20)
+where Vpf represents the volume occupied by the pore-forming agent
+in the capillary core, VNi denotes the volume occupied by the nickel
+powder in the capillary core, w is the mass ratio of the pore-forming
+agent in the capillary wick,qpf is the density of the pore-forming agent,
+and qNi is the density of the nickel powder.
+The coefficients k1 and k2 in Eqs. (17) and (19) are parameters
+introduced to explain the sintering conditions. These coefficients are
+derived from linear regression analysis of the actual porosity, where
+k
+1 ¼ 1.15 and k2 ¼ 0.635.
+The calculation formula for porosity is as follows:
+e ¼ 1:15 1 /C0 p
+6 cos h3
+/C18/C19
+þ 0:635 wqNi
+1 /C0 wðÞ qpf þ wqNi
+/C18/C19
+: (21)
+The predicted results of the porosity model are shown in Fig. 8.
+In 42 sets of experimental data, up to 92.86% of the data had an error
+within 20% of the actual values, indicating that the model can effec-
+tively predict the porosity of nickel powder capillary wicks after the
+addition of the pore-forming agent. However, it is noteworthy that
+FIG. 8. Porosity prediction model results.
+Physics of Fluids ARTICLE pubs.aip.org/aip/pof
+Phys. Fluids 36, 123308 (2024); doi: 10.1063/5.0240095 36, 123308-8
+Published under an exclusive license by AIP Publishing
+ 15 May 2026 13:02:56
+
+
+===== PAGE 10 =====
+there are three sets of capillary cores with significant prediction devia-
+tions, which occur under CPS conditions, corresponding to a powder
+particle size of 20 lm with pore-forming agent contents of 20%, 25%,
+and 30%, respectively. These deviations are closely related to the jump
+characteristics of the porosity curve shown in Fig. 4 . Therefore, the
+model exhibits better applicability for predicting the porosity of capil-
+lary wicks formed by smaller particle sizes of powder or lower contents
+of the pore-forming agent.
+2. Capillary performance
+Permeability K, a key parameter to evaluate a wick, is generally
+obtained by experimental measurement or theoretical estimation. In
+the experimental method, the mercury injection apparatus is com-
+monly used to measure the permeability, which will destroy the sample
+and bring high costs. In the theoretical method, the classical Kozeny–
+Carman (KC) equation is generally used
+38
+K ¼ e3d
+C 1 /C0 eðÞ 2 ; (22)
+where K is the permeability, d is the particle diameter, and e is the
+porosity. C is the Kozeny –Carman (KC) constant that is determined
+by the sintering process and physical characteristics of the particles.
+The C value was recommended to be 180 for uniformly packed and
+sintered spherical particles by several researchers.36
+Equation (15) can be deformed as
+dM2
+dt ¼ 4de4rðqAÞ2 cos h
+0:21 /C2 180 1 /C0 eðÞ 2l
+: (23)
+Figure 9 presents a comparative analysis between the expected
+results derived from Eq. (23) and the measured data for the LS and
+CPS under conditions where nickel powder particle sizes are 2, 10, and
+20 lm, and the pore-forming agent concentration is 0%. Due to the
+small size of the capillary wick, a “platform” phenomenon may occur
+in the liquid absorption curve once the wick is fully saturated with the
+working fluid. This phenomenon indicates that when the pore struc-
+ture of the capillary wick reaches its saturation state, the system ’s
+capacity for liquid adsorption temporarily stabilizes, leading to a
+reduction in the liquid absorption rate, which is manifested as a hori-
+zontal region on the curve. The results indicate that the predicted data
+align well with the experimental findings during the liquid absorption
+process. Notably, the degree of agreement between the prediction
+results of the LS model and the measured data are superior to that of
+the CPS model. This phenomenon can be primarily attributed to the
+relatively complex and irregular morphology and distribution of pores
+in the LS model, which enhances the effectiveness of the Kozeny –
+Carman equation in describing its permeability. In contrast, the pore
+structure in the CPS model is generally smaller and exhibits a more
+uniform characteristic, leading to increased deviations in permeability
+predictions and subsequently affecting the overall accuracy of the
+predictions.
+Figure 10 illustrates a comparison between the expected results
+from Eq. (23) and the measured results of the LS model at different
+concentrations of pore-forming agent (u) of 5%, 10%, 15%, 20%, 25%,
+and 30%, with nickel powder particle size set at 2 lm. The analysis
+reveals that the predicted values are significantly lower than the mea-
+sured values. This discrepancy is primarily attributed to the formation
+of numerous large pores upon the addition of the pore-forming agent,
+which reduces flow resistance and enhances the permeability of the
+wick. This observation indicates that the Kozeny–Carman equation is
+not suitable for materials produced with pore-forming agents.
+Therefore, it is essential to modify the Kozeny –Carman equation to
+effectively incorporate the effects of the pore-forming agent.
+To predict the dual-porosity permeability generated by the addi-
+tion of a pore-forming agent, Yu and Cheng
+39 developed a correspond-
+ing model based on the analogy between dual-porous structures and
+fractal structures. However, the effective application of this model
+necessitates the extraction of two fractal dimensions from the micro-
+scopic images of the studied porous medium. Although these two
+FIG. 9. Comparison of experimental results with expected results for LS and CPS
+at u ¼ 0%.
+FIG. 10. Comparison of capillary performance between experimental and expected
+findings at d ¼ 2 lm for LS.
+Physics of Fluids ARTICLE pubs.aip.org/aip/pof
+Phys. Fluids 36, 123308 (2024); doi: 10.1063/5.0240095 36, 123308-9
+Published under an exclusive license by AIP Publishing
+ 15 May 2026 13:02:56
+
+
+===== PAGE 11 =====
+FIG. 11. Comparative analysis between the measured results of LS and CPS at nickel powder particle sizes of 2, 10, and 20 lm and pore-forming agent concentrations u of
+5%, 10%, 15%, 20%, 25%, and 30%.
+Physics of Fluids ARTICLE pubs.aip.org/aip/pof
+Phys. Fluids 36, 123308 (2024); doi: 10.1063/5.0240095 36, 123308-10
+Published under an exclusive license by AIP Publishing
+ 15 May 2026 13:02:56
+
+
+===== PAGE 12 =====
+dimensions significantly impact the calculation of permeability, their
+precise determination is quite challenging. Byon and Kin 35 employed
+numerical simulation software to conduct finite element analyses of
+dual-porosity capillary wicks with various geometrical shapes, explor-
+ing the correlation of permeability. The formula is expressed as
+follows:
+K ¼
+e3D2
+Cð1 /C0 eÞ2 1 þ k3 exp 3 :29 d
+D
+/C18/C19
+d
+D
+/C18/C19 2
+"#
+; (24)
+K ¼ e3D2
+Cð1 /C0 eÞ2 k3 exp 3 :29 d
+D
+/C18/C19
+d
+D
+/C18/C19 2
+"#
+; (25)
+where D is the large pore size, m.
+The first term of Eq. (24) represents the Blake–Kozeny equation,
+which only considers the permeability of large pores, while the second
+term is a correction term used to calculate the permeability of small
+pores. Equation (25) is a transformation of Eq. (24),i n d i c a t i n gt h a ta s
+the ratio d/D decreases, the relative proportion of large pores to small
+pores significantly increases. In this case, the primary flow path of the
+fluid shifts toward the small pores. Byon and Kin
+35 further validated
+this phenomenon through high-speed camera visualization of the
+internal flow in sintered glass powder capillary wicks.
+Considering that the particle size of the nickel powder in the
+capillary wick studied in this paper is relatively small compared to the
+size of the pore-forming agent, Eq. (25) is chosen as the numerical
+model for the permeability of capillary wicks containing the pore-
+forming agent. This choice is based on the applicability of Eq. (25)
+under small pore flow conditions, which can more accurately reflect
+the permeability characteristics of the material. Equation (15) can be
+deformed as
+dM2
+dt ¼ 4r cos hðqAÞ2e4D2
+0:21dl180ð1 /C0 eÞ2 k3 exp 3 :29 d
+D
+/C18/C19
+d
+D
+/C18/C19 2
+"#
+: (26)
+By performing linear fitting of the suction curve, the value of
+dM2/dt can be obtained. Based on the obtained data, linear regression
+analysis is conducted using Eq. (26).D u r i n gt h i sp r o c e s s ,au n i f o r m
+coefficient of k3 ¼ 0.38 is applied for 28 types of capillary wicks with
+particle sizes of d ¼ 10 lma n d d ¼ 20 lm. However, for the 14 types
+of capillary wicks with a particle size of d ¼ 2 lm, the significant size
+d i f f e r e n c eb e t w e e nt h ep o w d e rp a r t i c l es i z ea n dt h ep o r e - f o r m i n g
+agent leads to a very small ratio of d/D, and using the same coefficient
+results in considerable error. Therefore, a separate linear regression
+analysis is conducted for the capillary wicks with a particle size of
+d ¼ 2 lm, yielding a final value ofk
+3 ¼ 3.06.
+Figure 11 presents a comparative analysis between the expected
+results from Eq.(26) and the measured data under conditions of nickel
+powder particle sizes of 2, 10, and 20 lm, with pore-forming agent
+concentrations of 5%, 10%, 15%, 20%, 25%, and 30%.The results indi-
+cate that the predicted data from both the LS and CPS models closely
+align with the experimental findings during the liquid absorption pro-
+cess. The results indicate that the prediction model possesses high
+accuracy. However, under CPS conditions, when the powder particle
+size is 20 lm and the pore-forming agent content is 20%, 25%, and
+FIG. 12. Comparative analysis between the measured results of CPS at nickel pow-
+der particle sizes of 20 lm and pore-forming agent concentrations u of 5%, 10%,
+15%, 20%, 25%, and 30%.
+TABLE IV. Wick properties in literatures.
+References
+Material,
+shape
+Particle
+size, lm
+Preparing
+method
+Pore-forming
+agent content Porosity, e
+Permeability,
+k (m2)
+Li et al.22 Copper, spherical 100 –125 LS 0% 0.423 1.23 /C2 10/C0 11
+Copper, irregular 0% 0.635 0.74 /C2 10/C0 11
+Xu et al.40 Copper, spherical 38 –48 LS 0% 0.378 0.46 /C2 10/C0 11
+180–250 0% 0.425 1.68 /C2 10/C0 10
+Li et al.31 Nickel, chain bead 2.2 –2.8 CPS 30 vol. % 0.774 0.315 /C2 10/C0 12
+Zhang et al.41 Nickel, chain bead 2.2 –2.8 CPS 30 vol. % 0.742 1.14 /C2 10/C0 12
+Xin et al.34 Nickel, chain bead 2.2 –2.8 LS 0% 0.705 2.39 /C2 10/C0 13
+CPS 0% 0.502 4.26 /C2 10/C0 14
+Mishra et al.42 Nickel, chain bead 2.0 –7.0 LS 0% 0.64 0.7 /C2 10/C0 12
+Present work Nickel, spherical 20 LS 30 wt. % 0.65 3.04 /C2 10/C0 12
+20 CPS 30 wt. % 0.56 1.59 /C2 10/C0 12
+Physics of Fluids ARTICLE pubs.aip.org/aip/pof
+Phys. Fluids 36, 123308 (2024); doi: 10.1063/5.0240095 36, 123308-11
+Published under an exclusive license by AIP Publishing
+ 15 May 2026 13:02:56
+
+
+===== PAGE 13 =====
+30%, the model exhibits significant prediction deviations. This is pri-
+marily due to the noticeable jumps in porosity in these three cases,
+which cause the predicted values to fall far below the actual measured
+values, resulting in considerable errors in the suction curves. By
+substituting the actual porosity values of these three cases into the
+capillary wick model, the results, as shown in Fig. 12 , demonstrate
+good congruence between the predicted and experimental values. This
+outcome indicates that the predictive capability of the capillary wick
+model is constrained by the porosity model, showing better prediction
+performance for capillary wicks with either smaller powder particle
+sizes or larger powder particle sizes with lower contents of the pore-
+forming agent.
+Table IV shows a comparison of the wick properties between the
+literature
+22,31,34,40–42 and the present work. The samples prepared by
+the LS method have better performance than those prepared by CPS,
+either for copper or nickel particles. Because the CPS method enhances
+t h ec o n t a c ta r e ao ft h ep a r t i c l e s ,i ti sm o r ep o s s i b l et oc r e a t ec l o s e d
+pores and reduce permeability. The samples prepared in the present
+work show better properties than most of the literature when the pore-
+forming agent content reaches up to 30%. However, the effect of the
+pore-forming agent on the strength of the wick should also be
+considered.
+As mentioned above, the properties of the wick were affected by
+various factors, such as particle size, preparation method, pore-
+forming agent, and sintering temperature. It is essential to figure out
+the relationship between these factors. Hence, the same particle size
+and pore-forming agent content may not lead to the same properties.
+IV. CONCLUSIONS
+In phase-change heat dispersal systems like loop heat pipes, the
+porous wick plays a crucial role. During the present study, 42 pieces of
+nickel powder wicks were prepared by the sintering method. The
+effects of powder size, pore-forming agent concentration, and prepara-
+tion methods on the internal porous structure and capillary perfor-
+mance of wicks were studied both experimentally and theoretically.
+The following are the major conclusions:
+(1) Although a wick composed of smaller particles is characterized
+by a smaller average pore radius and a resultant stronger capil-
+lary force, the presence of large sintering necks between the par-
+ticles leads to low porosity. Hence, its performance is not as
+good as that of sintered wicks with large particles. The addition
+of the pore-forming agent effectively increases the porosity and
+capillary performance of wicks while reducing strength.
+Therefore, pore-forming agent concentrations for LS and CPS
+are suggested to be 0% –10% and 0% –20%, respectively.
+(2) The number, size, distribution, and connectivity of micro-pores
+in the wick are influenced by particle size, pore-forming agent
+concentration, and preparation methods, thus affecting the
+properties of the wick. In the actual preparation process, the
+synergistic effects of the above factors should be considered. For
+example, high contact area and surface energy are exhibited by
+small particles, which are conducive to the formation of sinter-
+ing necks; thus, a lower sintering temperature and packaging
+pressure are suggested compared to those for large particles in
+order to obtain high porosity and permeability. Moreover,
+much larger influence on the movement of large particles than
+small particles is exerted by the addition of the pore-forming
+agent, necessitating a higher sintering temperature or packaging
+pressure for large particles to ensure good performance.
+(3) A comprehensive model for capillary wick performance and
+permeability has been successfully established by combining the
+traditional Kozeny –Carman permeability formula with an
+enhanced permeability equation specifically designed for pore-
+forming agents. The enhanced permeability equation is opti-
+mized for scenarios involving pore-forming agents. This model
+demonstrates excellent predictive capabilities when handling
+capillary wicks made from powders of small particle size and
+those made from large particle size powders with low contents
+of the pore-forming agent.
+ACKNOWLEDGMENTS
+The research was supported by the National Natural Science
+Foundation of China (Nos. 52476090, 52006166, and U2141218).
+AUTHOR DECLARATIONS
+Conflict of Interest
+The authors have no conflicts to disclose.
+Author Contributions
+Xiaoping Yang: Writing – review & editing (equal). Qingjie Cui:
+Data curation (equal); Investigation (equal); Writing – original draft
+(equal). Ziyi You: Resources (equal); Software (equal).Jie Liu: Formal
+analysis (equal); Validation (equal).Yonghai Zhang: Writing – review
+& editing (equal). Jinjia Wei: Conceptualization (equal); Writing –
+review & editing (equal).
+DATA AVAILABILITY
+The data that support the findings of this study are available
+within the article.
+REFERENCES
+1G. H. Zhou, J. Li, and L. C. Lv, “An ultra-thin miniature loop heat pipe cooler
+for mobile electronics, ” Appl. Therm. Eng. 109, 514–523 (2016).
+2C. Baker, C. Butler, P. Jester, and E. Grob, “Geoscience laser altimetry system
+(GLAS) loop heat pipe anomaly and on orbit testing, ” in International
+Conference on Environmental Systems (American Institute of Aeronautics and
+Astronautics, Portland, 2011).
+3G. H. Zhou, J. Li, and Z. Z. Jia, “Power-saving exploration for high-end ultra-
+slim laptop computers with miniature loop heat pipe cooling module, ” Appl.
+Energy 239, 859–875 (2019).
+4J. Li, F. Lin, D. M. Wang, and W. K. Tian, “A loop-heat-pipe heat sink with
+parallel condensers for high-power integrated LED chips, ” Appl. Therm. Eng.
+56(1–2), 18–26 (2013).
+5M. Mochizuki, R. Singh, T. Nguyen, Y. Saito, and T. Nguyen, “An emergency
+core cooling system (ECCS) for nuclear power reactor using passive loop heat
+pipe,” J. Jpn. Inst. Electron. Packag. 15(3), 180–184 (2012).
+6X. X. Zhang, X. D. Zhao, J. H. Xu, and X. T. Yu, “Characterization of a solar
+photovoltaic/loop-heat-pipe heat pump water heating system, ” Appl. Energy
+102, 1229–1245 (2013).
+7W. R. Hu, J. F. Zhao, M. Long et al. , “Space program SJ-10 of microgravity
+research,” Microgravity Sci. Technol. 26, 159–169 (2014).
+8W. R. Hu, “Preface of special issue: Microgravity experiments on board the
+Chinese recoverable satellite, ” Microgravity Sci. Technol. 20, 59 (2008).
+Physics of Fluids ARTICLE pubs.aip.org/aip/pof
+Phys. Fluids 36, 123308 (2024); doi: 10.1063/5.0240095 36, 123308-12
+Published under an exclusive license by AIP Publishing
+ 15 May 2026 13:02:56
+
+
+===== PAGE 14 =====
+9B. Siedel, V. Sartre, and F. Lef /C18evre, “Literature review: Steady-state modelling
+of loop heat pipes, ” Appl. Therm. Eng. 75, 709–723 (2015).
+10S. Launay, V. Sartre, and J. Bonjour, “Parametric analysis of loop heat pipe
+operation: A literature review, ” Int. J. Therm. Sci. 46(7), 621–636 (2007).
+11Y. Li, J. B. He, H. F. He, Y. Y. Yan, Z. X. Zeng, and B. Li, “Investigation of ultra-
+thin flattened heat pipes with sintered wick structure, ” Appl. Therm. Eng. 86,
+106–118 (2015).
+12P. Kumar, B. Wangaskar, S. Khandekar, and K. Balani, “Thermal-fluidic trans-
+port characteristics of bi-porous wicks for potential loop heat pipe systems, ”
+Exp. Therm. Fluid Sci. 94, 355–367 (2018).
+13T. Young, “An essay cohesion fluids, ” Proc. R. Soc. Lond. 1, 171–172 (1832).
+14H. Tang, Y. Tang, W. Yuan, R. T. Peng, L. S. Lu, and Z. P. Wan, “Fabrication
+and capillary characterization of axially micro-grooved wicks for aluminium
+flat-plate heat pipes, ” Appl. Therm. Eng. 129, 907–915 (2018).
+15M .S .K a m r a n ,K .N a z ,J .U m e r ,M .S a j j a d ,a n dM .I .M .Z e i n e l a b d e e n ,“Experimental
+evaluation of performance characteristics of a horizontal copper mesh wick-based
+miniature loop heat pipe,” Arab. J. Sci. Eng.46(3), 2121–2132 (2021).
+16W. Zhou, W. Ling, L. Duan, K. S. Hui, and K. N. Hui, “Development and tests
+of loop heat pipe with multi-layer metal foams as wick structure, ” Appl. Therm.
+Eng. 94, 324–330 (2016).
+17J. L. Xu, X. B. Ji, W. L. Yang, and Z. W. Zhao, “Modulated porous wick evaporator
+for loop heat pipes: Experiment,” Int. J. Heat Mass Transfer 72,1 6 3–176 (2014).
+18H. Li, X. G. Wang, Z. S. Liu, Y. Tang, W. Yuan, R. Zhou, and Y. J. Li,
+“Experimental investigation on the sintered wick of the anti-gravity loop-
+shaped heat pipe, ” Exp. Therm. Fluid Sci. 68, 689–696 (2015).
+19S. W. Chi, Heat Pipe Theory and Practice (Hemisphere Publishing Corporation,
+Delaware, 1976).
+20D. X. Deng, Y. Tang, G. H. Huang, L. S. Lu, and D. Yuan, “Characterization of
+capillary performance of composite wicks for two-phase heat transfer devices, ”
+Int. J. Heat Mass Transfer 56(1–2), 283–293 (2013).
+21S. Kirdponpattara, M. Phisalaphong, and B. M. Z. Newby, “Applicability of
+Washburn capillary rise for determining contact angles of powders/porous
+materials,” J. Colloid Interface Sci. 397, 169–176 (2013).
+22H. Li, X. Fang, G. Li et al. , “Investigation on fabrication and capillary perfor-
+mance of multi-scale composite porous wick made by alloying-dealloying
+method,” Int. J. Heat Mass Transfer 127, 145–153 (2018).
+23J. A. Weibel, S. V. Garimella, and M. T. North, “Characterization of evapora-
+tion and boiling from sintered powder wicks fed by capillary action, ” Int. J.
+Heat Mass Transfer 53(19), 4204–4215 (2010).
+24J. Y. Xu, L. Zhang, and H. Xu, “Performance of LHPs with a novel design evap-
+orator,” Int. J. Heat Mass Transfer 55(23–24), 7005–7014 (2012).
+25Y. J. Lin and K. S. Hwang, “Effects of particle size and particle size distribution
+on heat dissipation of heat pipes with sintered porous wicks, ” Metall. Mater.
+Trans. A 40(9), 2071–2078 (2009).
+26D. Wang, X. Wang, P. Zhou et al. , “Influence of packing density on perfor-
+mance of porous wick for LHP, ” Powder Technol. 258,6 –10 (2014).
+27V. Wuttijumnong, R. Singh, M. Mochizuki et al. , “High-performance nickel
+wick development for loop heat pipes, ” in 28th IEEE SEMI-THERM
+Symposium (Institute of Electrical and Electronics Engineers, 2012), pp. 52 –
+57.
+28A. J. Mathews, S. Ranjan, A. Inbaoli, C. S. Sujith Kumar, and S. Jayaraj,
+“Optimization of the sintering parameters of a biporous copper-nickel compos-
+ite wick for loop heat pipes, ” Mater. Today: Proc. 46(19), 9297–9302 (2021).
+29D. He, L. Wang, R. T. Liu et al. , “Pore characteristic and performance of sin-
+tered copper-based porous wicks, ” Mater. Sci. Eng. Powder Metall. 23,3 8 9–397
+(2018).
+30S. C. Wu, D. Wang, W. J. Lin et al., “Investigating the effect of powder-mixing
+parameter in biporous wick manufacturing on enhancement of loop heat pipe
+performance,” Int. J. Heat Mass Transfer 89, 460–467 (2015).
+31H. Li, Z. C. Liu, B. B. Chen, L. Chen, and J. Yang, “Development of biporous
+wicks for flat-plate loop heat pipe, ” Exp. Therm. Fluid Sci. 37,9 1–97 (2012).
+32C. C. Yeh, C. N. Chen, and Y. M. Chen, “Heat transfer analysis of a loop heat
+pipe with biporous wicks, ” Int. J. Heat Mass Transfer 52(19–20), 4426 –4434
+(2009).
+33J. W. Li, Y. Zou, L. Cheng et al., “Effect of fabricating parameters on properties
+of sintered porous wicks for loop heat pipe, ” Powder Technol. 204(2–3), 241 –
+248 (2010).
+34G.-M. Xin, K.-H. Cui, Y. Zou et al., “Development of sintered Ni-Cu wicks for
+loop heat pipes, ” Sci. China Ser. E: Technol. Sci. 52(6), 1607–1612 (2009).
+35C. Byon and S. J. Kim, “Capillary performance of bi-porous sintered metal
+wicks,” Int. J. Heat Mass Transfer 55(15–16), 4096–4103 (2012).
+36P. Xu and B. Yu, “Developing a new form of permeability and Kozeny –Carman
+constant for homogeneous porous media by means of fractal geometry, ” Adv.
+Water Resour. 31(1), 74–81 (2008).
+37J. Bear, Dynamics of Fluids in Porous Media (Dover Publications, Inc., New
+York, 1988).
+38S. W. Chi, Heat Pipe Theory and Practice (Hemisphere, Washington, 1976).
+39B. Yu and P. Cheng, “A fractal permeability model for bi-dispersed porous
+media,” Int. J. Heat Mass Transfer 45, 2983–2993 (2002).
+40J. Y. Xu, D. Wang, Z. Hu et al. , “Effect of the working fluid transportation in
+the copper composite wick on the evaporation efficiency of a flat loop heat
+pipe,” Appl. Therm. Eng. 178, 115515 (2020).
+41Z. Zhang, R. Zhao, Z. Liu et al., “Application of biporous wick in flat-plate loop
+heat pipe with long heat transfer distance, ” Appl. Therm. Eng. 184, 116283
+(2021).
+42D. K. Mishra, T. T. Saravanan, G. P. Khanra et al. , “Studies on the processing
+of nickel base porous wicks for capillary pumped loop for thermal management
+of spacecrafts,” Adv. Powder Technol. 21(6), 658–662 (2010).
+Physics of Fluids ARTICLE pubs.aip.org/aip/pof
+Phys. Fluids 36, 123308 (2024); doi: 10.1063/5.0240095 36, 123308-13
+Published under an exclusive license by AIP Publishing
+ 15 May 2026 13:02:56

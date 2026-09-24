@@ -1,0 +1,1350 @@
+
+
+===== PAGE 1 =====
+Article
+A thin and lightweight miniature loop heat pipe for
+cooling mobile electronic devices
+Graphical abstract
+Highlights
+• The miniature loop heat pipe is 0.7 mm thick and weighs
+3.95 g
+• Nickel and copper fiber wicks improve liquid return and
+thermal efficiency
+• Maximum equivalent thermal conductiv ity of 24,449 W/(m ⋅ K)
+• Stable performanc e after 30 days at 90
+◦
+C
+Authors
+Qingjie Cui ( 崔庆杰 ), Ziyi You ( 尤紫溢 ),
+Xiang Ma ( 马祥 ), ..., Mu Du ( 杜慕 ),
+Feng Zhang ( 张锋 ), Fatuan Li ( 李法团 )
+Correspondence
+yxping@xjtu. edu.cn
+In brief
+Cui et al. present a thin (0.7 mm) and
+lightweight (3.95g) miniature loop heat
+pipe (mLHP) that integrates a high-
+porosity nickel fiber capillary wick and
+solder-free bonding, achieving an
+equivalent thermal conductivity of 24,449
+W/(m ⋅ K). Accelerated aging tests confirm
+scalable production stability, offering a
+passive cooling strategy whereby
+compactnes s and heat dissipati on are
+critical.
+Cui et al., 2025, Device 3 , 100783
+August 15, 2025 © 2025 Elsevier Inc. All rights are
+reserved, including those for text and data
+mining, AI training, and similar technologies.
+https://doi.org/10.1016/j.device.2025.100783
+ll
+
+===== PAGE 2 =====
+Ar ticle
+A thin and lightweight miniature loop heat pipe 
+for cooling mobile electronic devices
+Qingjie Cui ( 崔庆杰 ),
+1, 2
+Ziyi You ( 尤紫溢 ),
+1, 2
+Xiang Ma ( 马祥 ),
+1, 2
+Xiaoping Yang ( 杨小平 ),
+1, 2, 5,
+* Yonghai Zhang ( 张永海 ),
+1, 2
+Jinjia Wei ( 魏进家 ),
+1, 2
+Qie Sun ( 孙锲 ),
+3
+Mu Du ( 杜慕 ),
+3
+Feng Zhang ( 张锋 ),
+4
+and Fatuan Li ( 李法团 )
+4
+1
+College of Chemical Engine ering and Technolog y, Xi’an Jiaotong University, Xi’an, Shaanxi 710049, China
+2
+State Key Laboratory of Fluorine & Nitrogen Chemicals, School of Chemical Engineering and Technolog y, Xi’an Jiaotong University, Xi’an, 
+Shaanxi 710049, China
+3
+Institute for Advanced Technology, Shandong Univers ity, Jinan 250061, China
+4
+QC Department, Goertek Inc., Weifan g 261000, China
+5
+Lead contact
+*Corresp ondence: yxping@xjtu .edu.cn
+https://do i.org/10.1016 /j.device.202 5.100783
+SUMMARY
+The escalating thermal challenge s in compact electronics necessitate micrometer-scal e thermal manage -
+ment innovations . We designed a thin (0.7 mm) and lightweight (3.95 g) miniature loop heat pipe (mLHP). 
+We developed an integrated wick structure with a stepped- serrated main wick and a braided copper wire 
+as the supplemen tary wick. The copper-bas ed evaporator and polymer-based vapor-liquid lines/condens er 
+are integrated via a solder-free bonding technique to evaporate heat transfer with a maximum equivalent 
+thermal conductivity of 24,449 W/(m ⋅ K), exceeding comme rcial graphene heat spreaders more than 
+15-fold. Accelerated aging tests at 90
+◦
+C demonst rate stable performance over 30 days, confirmin g structural 
+robustness and process stability for scalable mass production.
+INTRODUCTION
+Electronic devices are constantly evolving toward higher perfor -
+mance, lighter weight, and greater integration, which increases 
+the demand for more effective thermal management.
+1
+Currently, 
+most commercial mobile devices, including smartphones, tab -
+lets, and VR headsets, use graphite heat spreaders for cooling.
+2
+However, the heat dissipation performance of these materials is 
+gradually falling short of current requirements, and there is a 
+need to explore alternative technologies to address the existing 
+limitations of graphite heat spreaders. Phase-change heat-dissi -
+pation technologies, due to their thermal performance, have 
+emerged as robust candidates for advanced thermal manage -
+ment, particularly phase-change materials (PCMs) and vapor 
+chamber (VC) and heat pipe (HP) technologies.
+3
+PCMs absorb 
+heat during the solid-liquid phase change and can respond to 
+temperature fluctuations, maintaining a relatively stable temper -
+ature.
+4
+They have been used in battery
+5
+and printed circuit 
+board
+6
+cooling. However, PCMs face challenges such as 
+leakage risks during phase transition, low thermal conductivity, 
+and poor secondary heat-dissipation performance, which limit 
+their range of applications.
+7
+In contrast, both VC and HP technol -
+ogies absorb and dissipate heat through liquid-vapor phase 
+change and achieve thin designs through flattening, addressing 
+the thermal dissipation needs of compact electronic devices.
+8
+VC technology focuses on uniform heat dissipation over large 
+surface areas,
+9–11
+while HPs have advantages in directional 
+heat transfer.
+12–16
+However, both technologies fail to achieve 
+proper gas-liquid separation, and at high power levels vapor 
+diffusion can carry the returning liquid, limiting heat-transfer dis -
+tance and equivalent thermal conductivity. Moreover, in small 
+electronic devices such as smartphones, further thinning and 
+THE BIGGER PICTURE Increasing electronics power intensifies thermal challenges in slim devices such as 
+smartphones. To satisfy the growing demand for more efficient cooling strategies, thermal management sys -
+tems may find a path forward in the use of phase-change fluids, which achieve heat transfer by evaporating 
+and condensing along different sections of a pipe. Loop heat pipes (LHPs) use this principle to passively pro -
+vide cooling via capillary-driven phase change. Historically used for cooling larger machines such as space -
+craft, researchers have designed miniature LHPs (mLHPs) for use in smaller-scale electronics. To further the 
+efficiency, durability, and compactness of mLHPs, we present a design for a 0.7-mm-thick, 3.95-g mLHP with 
+a nickel fiber wick, achieving lab-scale batch production with consistent quality. 
+Device 3 , 100783, August 15, 2025 © 2025 Elsevier Inc. 1 
+All rights are reserved , including those for text and data mining, AI training, and similar technologies .
+Please cite this article in press as: Cui et al., A thin and lightweight miniature loop heat pipe for cooling mobile electronic devices, Device (2025), https:// 
+doi.org/10.1016/j.device.202 5.100783
+ll
+
+===== PAGE 3 =====
+flattening are required, with steam flow channel heights reduced 
+to the 100- μ m level, intensifying the carrying effect of steam on 
+the returning liquid.
+Loop heat pipes (LHPs), an extension of traditional HP tech -
+nology, utilize a capillary pumping mechanism for fluid transport. 
+The system comprises an evaporator, compensation chamber, 
+wick, vapor line, condenser, and liquid line.
+17–21
+LHPs separate 
+vapor and liquid flow paths through an independent wick, effec -
+tively mitigating the carry-over effect inherent in conventional 
+HPs. This configuration endows LHPs with advantages such 
+as rapid startup, flexible layout, long heat-transfer distances, 
+and high heat-transport capacity. The development of LHP tech -
+nology can be traced back to 1972 when researchers first 
+explored the use of capillary-driven two-phase fluid.
+22
+Following 
+its in-orbit validation on the Granat satellite in 1989, LHPs have 
+become a common thermal management solution for spacecraft 
+due to their passive self-circulation capability and high heat-load 
+adaptability.
+23
+LHPs have also been used for terrestrial applica -
+tions,
+24
+including high-power electronic device cooling,
+25–28
+so -
+lar energy utilization,
+29 , 30
+and waste heat recovery.
+31
+To address the thermal management requirements of light -
+weight and highly integrated mobile electronic devices, re -
+searchers are developing miniature loop heat pipes (mLHPs) 
+to enhance system capacity and expand their applicability. 
+Shioga et al.
+32
+fabricated an mLHP using chemical etching 
+and diffusion bonding techniques, achieving a thermal resis -
+tance of 0.11 K/W under a 20-W heat load. Mizutani et al.
+33
+de -
+signed a 0.3-mm-thick mLHP for cooling high-heat-flux (>5 
+W/cm
+2
+) mobile devices, demonstrating a maximum heat flux 
+of 10 W/cm
+2
+, a minimum thermal resistance of 2.51 K/W, and 
+an effective thermal conductivity of 2438 W/m ⋅ K. Kirshberg 
+et al.
+34
+fabricated a silicon-based mLHP (1 × 1 mm
+2
+) via photo -
+lithography and bonding processes, integrating vapor-liquid 
+channels into a high-purity silicon substrate and sealing 
+the evaporator, flow paths, and condenser with glass. Hsu 
+et al.
+35
+developed a silicon-based mLHP with a heat-dissipa -
+tion limit of 12.96 W and a minimum operational thermal resis -
+tance of 0.106
+◦
+C/W. Fukushima and Nagano
+36
+created a stain -
+less-steel mLHP using an anhydrous polytetrafluoroethylene 
+(PTFE) porous membrane as the wick, achieving a heat-transfer 
+performance of 11 W under natural air cooling. Detailed exper -
+imental performance metrics of the selected published mLHPs, 
+including thickness, heat flux, and range of evaporator temper -
+ature, are summarized in Table S1 . Additionally, co-planar lay -
+outs of the wick and compensation chamber have enabled 
+thickness reduction in mLHPs.
+36 , 37
+However, the opposing- 
+side design of vapor and liquid flow paths increases evaporator 
+width, limiting their application scope.
+In this work, we present an mLHP that is thin (0.7 mm) and 
+lightweight (3.95 g). Our prior research eliminated the traditional 
+compensation chamber and incorporated a stepped-serrated 
+main wick structure integrated with a braided copper wire sup -
+plementary wick to enhance fluid return.
+38
+Building on this foun -
+dation, we use a nickel fiber mat as the main wick, with a copper 
+evaporator, polymer-based vapor-liquid lines, and a condenser, 
+all assembled through a solder-free bonding technique. System -
+atic experimental investigations evaluate the liquid absorption 
+performance of the nickel fiber mat wick under varying heating 
+powers, tilt angles, and long-term operation, along with the 
+heat-transfer properties of the mLHP.
+RESULTS AND DISCUSSION
+Device design and operating principle
+The mLHP consists of the following components: an evapo -
+rator, main wick, supplementary wick, condenser, vapor line, 
+and liquid line, as shown in Figure 1 . The thermal transfer effi -
+ciency of the mLHP is evaluated under specified thermal input 
+circumstances by recording temperatures at various locations. 
+Throughout the experiment, temperatures were recorded at 
+eight different locations, seven of which were on the mLHP’s 
+surface, using thermocouples with a 0.5-K precision. The spe -
+cific locations measured include the center of the evaporator, 
+the outlet and the inlet of the evaporator, and condenser sec -
+tions (i.e., C-1 to C-4, as shown in Figure 1 A). One measure -
+ment point was placed in the environment to monitor the 
+ambient temperature. In the experiment, various input power 
+conditions were simulated by altering the output current of 
+the electricity source, and a ceramic heating plate with dimen -
+sions of 10 × 10 mm
+2 
+was used to deliver input power. The 
+fundamental parameters and material details used in the exper -
+iment are provided in Tables 3 , 4 , and 5 .
+The capillary force generated by the wick is the driving force 
+behind the functioning of the mLHP, and its performance af -
+fects the overall performance of the mLHP. The wicks of the 
+mLHP are divided into two categories: main and supplemen -
+tary. The main wick uses a nickel fiber mat as the base mate -
+rial, with a thickness of 0.4 mm, and is shaped using wire-cut -
+ting technology. The scanning electron microscopy (SEM) 
+image of this is presented in Figure 2 A. The preparation pro -
+cess of the nickel fiber mat involves drawing nickel wire into 
+long, thin fibers, cutting them, laying them down using an air 
+flow, and finally sintering to form the mat. Compared to tradi -
+tional metal powder sintered wicks, the nickel fiber mat wick 
+exhibits higher toughness and connection strength. Even after 
+undergoing bending deformation, its appearance and capillary 
+performance remain unchanged. The pore size of the nickel fi -
+ber felt wick follows a normal distribution due to the random 
+arrangement of the nickel fibers and can be broadly classified 
+into two types: oversized pores and effective pores. The effec -
+tive pores provide the necessary capillary force for capillary 
+action, while the oversized pores minimize the flow resistance. 
+Additionally, during the preparation process, the nickel fiber 
+mat demonstrates low sensitivity to various influencing fac -
+tors, ensuring better consistency in its performance. These 
+characteristics give the nickel fiber mat wick advantages in 
+practical applications. The main wick consists of two layers: 
+the upper layer, which is rectangular and designed for va -
+por-liquid separation, and the lower layer, which features a 
+serrated design to function as the vapor escape route. The 
+size of the serrated structure in the lower layer follows a 
+decreasing trend, which enables the vapor-liquid flow paths 
+to be concentrated on the same side, thus effectively reducing 
+the overall width of the mLHP. The supplementary wick, con -
+structed from woven spiral copper wire, leverages the surface 
+tension of the liquid to provide initial liquid storage and 
+Please cite this article in press as: Cui et al., A thin and lightweight miniature loop heat pipe for cooling mobile electronic devices, Device (2025), https:// 
+doi.org/10.1016/j.device.2025.1007 83
+2 Device 3 , 100783, August 15, 2025 
+Article
+ll
+
+===== PAGE 4 =====
+controlled release. This mitigates the risk of dry-out in the pri -
+mary wick, which may occur because of the absence of a 
+compensation chamber. Figure 1 D depicts the total fabrication 
+process for the mLHP. Throughout the welding and fabrication 
+process, no solder is used, and the batch-production goal was 
+achieved at the laboratory level, as shown in Figures S1 A 
+and S1B.
+To assess the mLHP’s heat-transfer capability, an mLHP test 
+rig capable of rotating 360
+◦
+was designed for the experiment. As 
+illustrated in Figure S2 , α is the angle formed by the condenser 
+and the horizontal plane. To remove non-condensable gas and 
+improve the performance of the mLHP device, the experiment 
+used a mechanical pump for primary evacuation, followed by a 
+molecular pump for secondary evacuation. The vacuum valve 
+closes and the liquid injection valve opens when the device’s in -
+Figure 1. Schematic of design and working 
+mechanism of mLHP 
+(A) Diagram of equipment and temperature mea -
+surement points used in the experiment. 
+(B) Evaporator internal structure diagram. 
+(C) Physical diagram of the mLHP. 
+(D) Specific preparation process of mLHP.
+ternal pressure falls below 6 × 10
+  3 
+Pa. 
+Anhydrous ethanol is chosen as the 
+working fluid, with the liquid injection 
+controlled to 30%. The non-condensable 
+gas was removed from the working fluid 
+before the injection process. After the in -
+jection is completed, the injection port is 
+severed using a tube cutting and welding 
+tool, and a quick welding seal is applied. 
+During the experiment, the ambient tem -
+perature is kept at 23
+◦
+C using an air-con -
+ditioning system. To verify the mLHP’s 
+heat-transfer capability, multiple experi -
+mental conditions were explored, as 
+detailed in Table 6 .
+Liquid-absorption capability of the 
+wick
+The overall capability of the wick is deter -
+mined by the interaction between capil -
+lary resistance and capillary force. To 
+investigate the capillary capability of the 
+nickel fiber felt wick, measurements 
+were taken using the experimental setup 
+depicted in Figure S3 . The sample is 
+placed on the working fluid pool using a 
+fixed bracket, where the height of the 
+bracket is adjustable to ensure sufficient 
+contact between the bottom of the sam -
+ple and the working fluid. Capillary force 
+causes the mass in the working fluid 
+pool to progressively decrease as the 
+fluid rises, and this process is monitored 
+and recorded in real time using an elec -
+tronic balance. Therefore, the capillary capability of the wick 
+can be quantified as follows:
+M ( t ) = M
+pool
+( 0 )   M
+pool
+( t ) ; (Equation 1) 
+where M
+pool
+(0) and M
+pool
+( t ) represent the initial mass and tran -
+sient mass of the pool, respectively.
+Ethanol was used in the capillary absorption experiments to 
+maintain consistency with the thermal performance tests. The 
+test subjects included nickel fiber felt wicks, copper mesh wicks, 
+and four copper powder sintered wicks with varying particle 
+sizes. The latter two are commonly used metal wicks in ultra- 
+thin LHPs. Table 1 summarizes the physical parameters of 
+each wick.
+Please cite this article in press as: Cui et al., A thin and lightweight miniature loop heat pipe for cooling mobile electronic devices, Device (2025), https:// 
+doi.org/10.1016/j.device.202 5.100783
+Device 3 , 100783, August 15, 2025 3 
+Article
+ll
+
+===== PAGE 5 =====
+The capillary absorption performance test results are shown in 
+Figure 2 B. Under the same test conditions, the capillary absorp -
+tion capability of the nickel fiber felt wick is higher than that of 
+copper mesh and copper powder sintered wicks, highlighting 
+its notable advantages in capillary performance. Its porosity rea -
+ches 75.7%, further reducing pressure loss in liquid transport 
+and ensuring efficient liquid supply. In contrast, although the 
+copper powder sintered wick’s small pores provide some capil -
+lary force, its porosity ranges from only 49.3% to 62.9%, result -
+ing in higher flow resistance and limited capacity for liquid trans -
+port. The copper mesh wick, with a pore size of 38 μ m, is 
+primarily determined by the woven mesh structure. Its capillary 
+force generation capability is limited, and it cannot provide 
+enough driving force to support liquid transport.
+Cooling performance during heating
+Transient operating characteristics are crucial for analyzing dy -
+namic responsiveness, optimizing design, and diagnosing de -
+vice defects. The startup characteristics under the input power 
+of Q = 1 W are illustrated. The startup process has three key 
+stages, as illustrated in Figure 3 A. Stage I is marked by the rise 
+in vapor temperature ( T
+Evap-out
+). After the DC power supply is 
+turned on, heat is conducted from the ceramic heating plate to 
+the evaporator through thermal grease, causing a rise in the 
+evaporator temperature ( T
+Evap
+). The working fluid inside the 
+evaporator transitions from subcooled to saturated state, and 
+vapor is generated as part of the heat-absorption process. Stage 
+II is completed when the evaporator inlet temperature ( T
+Evap-in
+) 
+starts to decrease. During this stage, although heat is conducted 
+into the evaporator, the mLHP cycle has not yet formed, so the 
+evaporator inlet temperature increases due to the heat-conduc -
+tion effect of the baseplate. Stage III is marked by the system 
+temperature gradually stabilizing. At this stage, a small amount 
+of working fluid flows sequentially through the evaporator outlet 
+and various points on the condenser (C-1 to C-4), returning to the 
+evaporator inlet, which causes the evaporator inlet temperature 
+to drop once the cycle is established. Stage III is marked by the 
+system temperature gradually stabilizing. In this stage, enough 
+liquid working fluid is in the cycle to establish circulation. 
+Figure 3 C illustrates the infrared startup process under the con -
+ditions of tilt angle α = 90
+◦
+and input power Q = 4 W. Due to space 
+constraints, when taking infrared temperature images, the de -
+vice could not be placed exactly above the mLHP device, lead -
+ing to an incomplete overlap between the obtained thermal im -
+ages and the actual device.
+Figure 3 B shows the transient characteristics of the mLHP un -
+der input power Q
+in 
+(1   7 W) and a tilt angle α = 90
+◦
+. As the input 
+power increases, the temperatures of various parts rise, and the 
+evaporator temperature ( T
+Evap
+) shows more fluctuations. This 
+phenomenon occurs because, with the increase in power, the 
+amount of liquid that needs to evaporate in the evaporator also 
+increases. There is a scarcity of working fluid inside the evapo -
+rator as a result of the vapor-generation rate becoming too 
+high, which keeps the liquid working fluid from returning in 
+time. This lack of working fluid subsequently causes fluctuations 
+in the evaporator temperature. Additionally, with the increase in 
+input power, the overshoot of the evaporator temperature be -
+comes more pronounced. When the power increases rapidly, 
+Figure 2. Performance of nickel fiber mat wick 
+(A) Physical and SEM images of the main wick. 
+(B) Comparison of the liquid-absorption properties of different wicks. 
+The amount and speed of liquid absorption of nickel fiber mat wicks are higher than those of copper mesh wick and copper powder sintered wick.
+Table 1. Physical properties of the wick
+Wick
+Powder 
+size d ( μ m) Pore size d
+p 
+( μ m) Porosity ε
+Nickel fiber felt wick – 16.63 75.7%
+Copper wire mesh wick – 38.0 76%
+Copper powder 
+sintered wick
+30 12.6 49.3%
+75 31.5 58.1%
+100 42.0 62.6%
+150 63.0 62.9%
+Please cite this article in press as: Cui et al., A thin and lightweight miniature loop heat pipe for cooling mobile electronic devices, Device (2025), https:// 
+doi.org/10.1016/j.device.2025.1007 83
+4 Device 3 , 100783, August 15, 2025 
+Article
+ll
+
+===== PAGE 6 =====
+the working fluid in the evaporator becomes locally overheated, 
+exacerbating the unevenness of the evaporation process. The 
+delayed return of the liquid working fluid further worsens this un -
+even evaporation, leading to a distinct overshoot effect, which 
+negatively impacts the overall temperature stability.
+Performance during input power variation
+Under a fixed power input, when the temperature changes mini -
+mally over time, the mLHP can be considered to have reached a 
+steady state. Figure 4 illustrates the steady-state characteristics 
+of the mLHP at a tilt angle α = 90
+◦
+and input power Q
+in 
+of 1–7 W. 
+When Q
+in 
+is 1 W, no significant temperature increase is observed 
+in different sections of the condenser. This is because the lower 
+power results in a reduced vapor-generation rate and lower flow 
+velocity, causing most of the working fluid to condense prema -
+turely in the vapor line and return to the evaporator outlet, with 
+only a small portion of the fluid completing the cycle. In this 
+case, heat loss at the evaporator inlet becomes more significant. 
+When Q
+in 
+is increased to 2 W, the temperature in several 
+condenser areas rises noticeably, indicating that most of the 
+working fluid passes through the condenser and returns to the 
+evaporator via the liquid line, enabling the mLHP to complete 
+its cycle. As the input is further increased to 3 W, a substantial 
+increase in input power allows the evaporator to generate suffi -
+cient vapor to drive the fluid circulation. At this point, the temper -
+ature at the end of the condenser ( T
+C-4
+) exceeds the evaporator 
+inlet temperature ( T
+Evap-in
+), further validating this point. Addition -
+ally, under these operating conditions, the temperature unifor -
+mity of the mLHP is better compared to the earlier input powers 
+( Q
+in 
+= 1 W and Q
+in 
+= 2 W), indicating that the performance of the 
+mLHP is fully realized under these conditions. As the power in -
+creases, the performance of the mLHP continues to improve, 
+Figure 3. Transient characteristics of UTLHP 
+(A) Startup process of mLHP under Q
+in 
+= 1 W, α = 90
+◦
+working conditions. The overall division is divided into three stages: stage I, steam generation; stage II, 
+working fluid reflux to the evaporator; stage III, cycle formally established. 
+(B) Transient characteristics under thermal input power Q
+in 
+(1–7 W) and inclination angle α = 90
+◦
+. Under high-power conditions, an overshoot effect is induced by 
+the working fluid overheating and delayed return of liquid working fluid. 
+(C) Startup process under infrared measurement ( Q
+in 
+= 4 W, α = 90
+◦
+).
+Please cite this article in press as: Cui et al., A thin and lightweight miniature loop heat pipe for cooling mobile electronic devices, Device (2025), https:// 
+doi.org/10.1016/j.device.202 5.100783
+Device 3 , 100783, August 15, 2025 5 
+Article
+ll
+
+===== PAGE 7 =====
+with the temperature differential between the condenser end and 
+the evaporator inlet increasing and heat loss decreasing.
+Effect of tilt angle and gravity
+Figure 5 A illustrates the effect of different tilt angles α on the 
+steady-state characteristics of the mLHP. Under low-heating- 
+power conditions ( Q
+in 
+= 1 W), as the tilt angle α increases, the 
+evaporator temperature T
+Evap 
+gradually decreases, while the 
+overall temperature of the condenser approaches the ambient 
+temperature. This phenomenon can be explained using fluid dy -
+namics principles: when the pipeline is inclined, the efficiency of 
+steam escape in the evaporator increases. However, due to the 
+small amount of vapor generated under these conditions, most 
+of the working fluid undergoes premature condensation in the 
+liquid line. Under the influence of gravity, the condensed working 
+fluid is more easily returned to the evaporator, thereby hindering 
+the establishment of the mLHP cycle. Therefore, gravity plays a 
+negative role in this process. As the input power increases, the 
+amount of vapor generated by the evaporation of the working 
+fluid also increases, thereby establishing an effective circulation. 
+The greater the tilt angle α , the lower the evaporator temperature 
+T
+Evap
+. The higher the power, the more pronounced the effect of 
+the tilt angle on the evaporator temperature. This is because suf -
+ficient vapor generation allows most of the vapor-phase working 
+fluid to pass through the condenser, condense, and enter the 
+liquid line. Gravity and the supplementary wick work together 
+in the liquid line to make it simpler to return the liquid working 
+fluid to the evaporator. As the tilt angle α increases, the gravity 
+effect becomes more significant, allowing more working fluid 
+to be supplied to the primary wick. When the tilt angle α is 30
+◦
+, 
+the temperatures of the condenser points C-3 and C-4 are higher 
+than those at α = 60
+◦
+and 90
+◦
+. This condition is caused by a 
+reduction in the return of liquid working fluid, resulting in 
+increased heat loss. A portion of the working fluid evaporates 
+in the evaporator inlet and escapes in reverse through the liquid 
+line. At α = 60
+◦
+and 90
+◦
+, the liquid return flow increases further, 
+reducing heat loss.
+The fluctuation in the mLHP’s thermal resistance and equiva -
+lent thermal conductivity at various tilt angles α is depicted in 
+Figure 5 B. Under low-power-input conditions ( Q
+in 
+= 1 W), the 
+impact of the tilt angle on the performance of the mLHP is mini -
+mal. This is because, at this power level, the mLHP fails to estab -
+lish effective circulation, and most of the heat is dissipated pri -
+marily through the individual units of the evaporator. However, 
+as the input power increases, the thermal performance of 
+the mLHP improves under different tilt angles. At a tilt angle 
+Figure 4. Steady-state characteristics of mLHP ( α = 90
+◦
+) 
+Under low power, limited fluid circulation causes significant heat loss at the 
+evaporator inlet. Increasing Q
+in 
+enhances fluid flow, raising temperatures 
+across the mLHP.
+Figure 5. Effect of tilt angle on the steady-state performance of mLHP 
+(A) Impact of tilt angle on mLHP evaporator baseplate temperature. Under constant heating power, increasing the tilt angle reduces the baseplate temperature 
+due to enhanced gravity-assisted liquid return. 
+(B) Effect of tilt angle on thermal performance. The equivalent thermal conductivity ( λ
+eff
+) increases by 378.6%, while the thermal resistance (RmLHP) decreases by 
+79.2%.
+Please cite this article in press as: Cui et al., A thin and lightweight miniature loop heat pipe for cooling mobile electronic devices, Device (2025), https:// 
+doi.org/10.1016/j.device.2025.1007 83
+6 Device 3 , 100783, August 15, 2025 
+Article
+ll
+
+===== PAGE 8 =====
+α = 90
+◦
+, the equivalent thermal conductivity λ
+eff 
+increased by 
+378.6% (to 24,449 W/(m ⋅ K)), and the thermal resistance 
+decreased by 79.2% (to 1.15 K/W) compared to the horizontal 
+position. The increase in the tilt angle is not always correlated 
+with the performance enhancement. For example, at a tilt angle 
+α = 30
+◦
+, the performance of the mLHP is improved compared to 
+α = 60
+◦
+, which is associated with heat loss from the liquid work -
+ing fluid, causing some working fluid to escape in reverse.
+Long-term durability under high-temperature aging 
+tests
+Traditional LHPs are prone to a decrease in sealing perfor -
+mance over extended operation periods, leading to an increase 
+in the amount of non-condensable gas inside, which in turn re -
+sults in a decline in their heat-transfer performance. Addition -
+ally, organic materials often exhibit poor gas-barrier properties 
+due to their molecular polarity, crystallinity, and other charac -
+teristics, which may cause performance degradation in assem -
+bled products after long-term operation. In this study, the 
+mLHP device was placed in an oven at 90
+◦
+C to undergo 
+high-temperature aging tests. The mLHP was removed for per -
+formance testing every 5 days, and the test results are shown in 
+Figure 6 A, with no observable performance degradation after 
+30 days.
+The mLHP exhibits performance differences between cold- 
+start and hot-start conditions, as shown in Figure 6 B. Under 
+the same operating conditions ( Q
+in 
+= 4 W, α = 90
+◦
+), the hot-start 
+experimental performance of mLHP is better than its cold-start 
+performance. Compared to the cold start, the evaporator tem -
+perature T
+Evap 
+during the hot start decreased by 2.54
+◦
+C, heat 
+leakage reduced by 1.92
+◦
+C, and the temperature uniformity 
+within the device improved. This may be due to the fact that, dur -
+ing the hot start, an effective circulation was formed in the mLHP 
+prior to delivering 4 W of electricity. As a result, the time required 
+to reach thermal equilibrium after applying 4 W of power was 
+shortened, and maintaining a forward cycle became easier. In 
+contrast, during the cold start, the time needed to establish the 
+cycle was longer, leading to increased heat leakage at the evap -
+orator inlet, which caused a higher T
+Evap-in 
+and, in turn, affected 
+the experimental performance of the mLHP. Additionally, the 
+smaller thermal stress during the hot start helps extend the life -
+span of the device.
+Performance comparison with other mLHPs
+Through mass estimation of other mLHP prototypes, this study 
+further investigated evaporator baseplate temperature and ther -
+mal resistance under unit-mass input-power conditions. Addi -
+tionally, we established a capillary limit model that accurately 
+Figure 6. mLHP performance under long-term operation and startup conditions 
+(A) Results of mLHP operation in a high-temperature environment (90
+◦
+C) for a long period of time (30 days). 
+(B) Distinction between hot and cold start of the mLHP.
+Table 2. Comparison of the performance of mLHP
+Reference Substrate q
+max 
+(W ⋅ cm
+  2
+) q
+m 
+(W ⋅ cm
+  2
+⋅ g
+  1
+) T
+max 
+(
+◦
+C) R
+total 
+(
+◦
+C ⋅ W
+  1
+) Thickness (mm)
+This work copper-plated polyimide 7 1.77 83.41 1.15 0.7
+Mizutani et al.
+33
+copper 10 0.66 102.09 2.51 0.3
+Nagano and Fukushima
+36
+aluminum 11 0.14 84.42 1.21 3.0
+Zhou et al.
+37
+copper 12.5 0.75 96.52 4.88 1.0
+Cui et al.
+38
+copper 5 0.39 72.15 2.48 0.7
+Ueno et al.
+39
+SUS304 3.5 0.40 111.75 3.42 1.0
+Please cite this article in press as: Cui et al., A thin and lightweight miniature loop heat pipe for cooling mobile electronic devices, Device (2025), https:// 
+doi.org/10.1016/j.device.202 5.100783
+Device 3 , 100783, August 15, 2025 7 
+Article
+ll
+
+===== PAGE 9 =====
+predicts the maximum operational power of mLHP under varying 
+conditions, with detailed derivations provided in Note S1 . 
+Figures S4 A and S4B and Table 2 compare the performance of 
+our mLHP with other mLHPs. The results indicate that the 
+mLHP proposed in this work can maintain lower evaporator 
+baseplate temperatures and thermal resistance at the highest 
+heat flux per unit mass of 1.77 W cm
+  2
+⋅ g
+  1
+, more than twice 
+the heat-dissipating capacity of the existing mLHPs. This is 
+attributed to the multi-aperture wick providing enhanced capil -
+lary forces under elevated power conditions, as corroborated 
+by model results. Moreover, the reasonable flow-channel design 
+in the evaporator, vapor/liquid lines, and condenser enables 
+rapid vapor diffusion and low flow resistance at high input power.
+Conclusions
+In this work, we present a thin and lightweight mLHP with nickel 
+fiber felt as the wick and a copper-plated polyimide film as the 
+condenser. During the fabrication process, welding was per -
+formed without the use of solder, achieving laboratory-scale 
+mass production. Compared to other commonly used metal 
+wicks in ultra-thin LHPs, nickel fiber felt demonstrates stronger 
+capillary force and higher fabrication stability and scalability. 
+As the input power increases ( Q
+in 
+> 3 W), the thermal perfor -
+mance of the mLHP improves, reducing heat leakage at the 
+evaporator inlet. Furthermore, the mLHP’s performance in -
+creases with higher input power at larger tilt angles. The mLHP 
+has a maximum dissipating power of 7 W, with an equivalent 
+thermal conductivity of 1,831–24,449 W/(m ⋅ K) and a thermal 
+resistance of 19.04–1.15 K/W. The mLHP underwent a 30-day 
+long-term aging test at a high temperature of 90
+◦
+C, during which 
+no performance degradation was observed.
+This mLHP demonstrates potential for high-heat-flux thermal 
+management in space-constrained systems, offering an alterna -
+tive to conventional HPs and graphene heat spreaders. Howev -
+er, commercialization hinges on resolving two critical barriers: (1) 
+manufacturing consistency for wick-driven mLHPs demands 
+scalable processes ensuring batch reproducibility and precision 
+in pore geometry/thickness; and (2) long-term reliability valida -
+tion is required under dynamic conditions (thermal, vibration, 
+multi-orientation) per industrial standards. While the mLHP in 
+this work exhibits some flexibility, as the bending angle in -
+creases the supporting spring may puncture the condenser, 
+leading to device failure. This highlights a fundamental conflict 
+in ultra-thin designs that also require flexibility, whereas existing 
+mechanical architectures suffer from reliability deficiencies un -
+der repeated bending. Future efforts can explore material inno -
+vations to achieve mechanical flexibility, thereby opening trans -
+formative pathways for thermal management in next-generation 
+flexible electronics. Concurrently, extreme-environment valida -
+tion will bridge the gap between laboratory prototypes and 
+real-world applications, extending its potential for thermal regu -
+lation in space-constrained systems such as spacecraft 
+electronics.
+METHODS
+Device fabrication
+The evaporator’s bottom and cover plates are made of high- 
+strength brass and have a thickness δ of 0.15 mm. The supple -
+mentary wick is placed in a 300-mL solution containing 10 g of 
+oxalic acid, heated in a 50
+◦
+C water bath, and subjected to ul -
+trasonic cleaning for 30 min. It is then cleaned with deionized 
+water and vacuum dried. The supplementary wick undergoes 
+a modification process that enhances its capillary performance. 
+Next, the bottom plate of the evaporator, the main wick, and 
+the supplementary wick are spot welded together for pre-fixing, 
+facilitating subsequent evaporator fabrication. The bottom plate 
+and cover plate of the evaporator are then welded together us -
+ing a diffusion welding machine. The condenser is made from a 
+double-sided copper-plated polyimide film, with an overall 
+thickness of 48.5 μ m (including an 18- μ m copper layer, a 
+12.5- μ m polyimide layer, and an 18- μ m copper layer). The 
+application of a copper layer on the external surface serves 
+to enhance barrier properties, while the deposition of a copper 
+layer on the internal surface improves solderability. During the 
+fabrication process, the condenser is first shaped using a 
+cold press machine to the desired form, and the diffusion weld -
+ing process, which has been applied in the fabrication of 
+certain LHPs and vapor chamber devices,
+40–42
+is then used 
+to weld it together with the evaporator. Notably, due to the 
+small thickness of the condenser and to prevent collapse dur -
+ing the vacuum process due to insufficient support, a pre- 
+shaped spring is added during the welding process as support. 
+Additionally, the supplementary wick is designed to be placed 
+in the center of the spring.
+Data acquisition and analysis methodology
+The power output of the DC power supply Q
+in 
+is primarily divided 
+into two parts: one is the heat used for evaporation, Q
+e
+, and the 
+other is the heat lost by the evaporator shell to the environment, 
+Q
+a
+. Among these, the heat loss Q
+a 
+accounts for less than 3% of 
+Q
+in
+, so its impact on the overall power can be considered 
+negligible.
+Q
+in
+= UI = Q
+e
+: (Equation 2) 
+Table 3. Materials and sources
+Material Source
+Evaporators Suzhou Kaijingzhao Electronics
+Condensers Goertek
+Spring Taobao Marketplace, a Chinese website for 
+online shopping
+Main wick Kunshan Jiayixing Electronic Technology
+Supplementary wick Kunshan Dematic New Material Technology
+Table 4. Instrumentation and brand
+Instrumentation Brand
+Heating power Henghui
+Data acquisition National Instruments
+Molecular pump KYKY
+Mechanical pump KYKY
+Please cite this article in press as: Cui et al., A thin and lightweight miniature loop heat pipe for cooling mobile electronic devices, Device (2025), https:// 
+doi.org/10.1016/j.device.2025.1007 83
+8 Device 3 , 100783, August 15, 2025 
+Article
+ll
+
+===== PAGE 10 =====
+The calculation formula for heat flux is
+q =
+Q
+in
+A
+: (Equation 3) 
+The calculation formula for the mLHP thermal resistance 
+R
+mLHP 
+is
+R
+mLHP
+=
+T
+Evap
+  T
+Cond
+Q
+in
+; (Equation 4) 
+where T
+Cond
+, the condenser’s average temperature, is deter -
+mined by the temperature using points C-1 to C-4 and is unaf -
+fected by the outside temperature.
+The following formula can be used to obtain the mLHP’s equiv -
+alent thermal conductivity, λ
+eff
+:
+λ
+eff
+=
+L
+R
+mLHP
+× S
+; (Equation 5) 
+where L represents the thermal transfer distance of the mLHP, 
+and S represents its cross-sectional area.
+According to Archimedes’ principle,
+43
+the porosity ε of the 
+wick can be determined by dividing the volume of the absorbed 
+liquid by the apparent volume of the wick.
+ε =
+V
+L
+V
+W
+; (Equation 6) 
+where V
+L 
+is the volume of the absorbed liquid, and the calculation 
+formula is
+V
+L
+=
+M
+sat
+  M
+dry
+ρ
+L
+; (Equation 7) 
+where V
+W 
+represents the apparent volume of the wick, M
+sat 
+is the 
+mass of the saturated liquid in the wick, and M
+dry 
+is the mass of 
+the dry wick.
+In the power measurement of the power supply, a 0.5% uncer -
+tainty is introduced by the wattmeter. The uncertainty in the mea -
+surement of geometric dimensions fluctuates between 0.5% 
+and 1%.
+The overall uncertainty of the mLHP thermal resistance in -
+cludes the temperature measurement errors as well as errors 
+from the power supply. Using the error propagation formula pro -
+posed by Moffat,
+44
+the uncertainty of the computed result Y was 
+assessed.
+Y = Y ( X
+1
+; X
+2
+; ⋯ ; X
+N
+) ; (Equation 8) 
+Δ Y =
+̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ ̅
+∑
+N
+i = 1
+(
+∂ y
+∂ x
+Δ X
+i
+)
+2
+√
+√
+√
+√
+; (Equation 9) 
+where X stands for a series of measurements, and Y is the esti -
+mated outcome. Δ X
+i 
+denotes the uncertainty related to each 
+measurement value, whereas Δ Y denotes the uncertainty of Y . 
+The partial derivative of Y with regard to X
+i 
+is represented as 
+∂ Y / ∂ X
+i
+. Using this error propagation method, the uncertainty in 
+the estimated result Y can be precisely evaluated by accounting 
+for the uncertainties in the measurement values X and their 
+impact on Y . Both directly measured and estimated parameters 
+underwent a comprehensive uncertainty analysis. The specific 
+findings are shown in Table 7 .
+RESOURCE AVAILABILITY
+Lead contact
+Requests for further information and resources should be directed to and will 
+be fulfilled by the lead contact, Xiaoping Yang ( yxping@xjtu.edu.cn ).
+Table 5. Sizes of the mLHP
+Part Substance Measurements
+Evaporator brass outside dimensions: 
+30 × 15 × 0.7 mm
+3
+internal dimensions: 
+26 × 11 × 0.4 mm
+3
+Main wick nickel pore dimensions: 
+16.63 μ m (small pore), 
+71.24 μ m (large pore)
+porosity: 76%
+overall dimensions: 
+26 × 11 × 0.4 mm
+3
+Supplementary 
+wick
+copper pore dimensions: 
+64.27 μ m
+porosity: 69%
+length: 120 mm
+Condenser copper-clad 
+polyimide
+internal cavity dimensions: 
+66 × 4.5 × 0.65 mm
+3
+Vapor line copper-clad 
+polyimide
+internal cavity dimensions: 
+80 × 4.5 × 0.65 mm
+3
+Liquid line copper-clad 
+polyimide
+80 × 4.5 × 0.65 mm
+3
+Table 6. Experimental conditions setup of the mLHP
+Test items Tilt angle α (
+◦
+) Q (W)
+Performance testing 0 1–3
+30 1–4
+60 1–6
+90 1–7
+High-temperature aging testing (90
+◦
+C, 
+30 days)
+90 4
+Table 7. Uncertainty analysis of the mLHP
+Variable Δ Y / Y Quantitative value
+Current Δ I / I 0.50%
+Equivalent thermal conductivity Δ λ
+eff
+/ λ
+eff
+7.10%
+Heating surface area Δ A / A 0.70%
+Input power Δ Q / Q 0.70%
+Temperature Δ T 0.5
+◦
+C
+Thermal resistance Δ R
+mLHP
+/ R
+mLHP
+1.30%
+Voltage Δ U / U 0.50%
+Please cite this article in press as: Cui et al., A thin and lightweight miniature loop heat pipe for cooling mobile electronic devices, Device (2025), https:// 
+doi.org/10.1016/j.device.202 5.100783
+Device 3 , 100783, August 15, 2025 9 
+Article
+ll
+
+===== PAGE 11 =====
+Materials availability
+This work did not generate new unique reagents or materials.
+Data and code availability
+The data used to support the findings of this study are available from the lead 
+contact upon reasonable request.
+ACKNOWLEDGMENT S
+The research was supported by the National Natural Science Foundation of 
+China (nos. 52476090 and U2141218).
+AUTHOR CONTRIBUTIONS
+All the authors have contributed their efforts to complete the paper. Q.C.: 
+conceptualization, methodology, data curation, and writing – original draft. 
+Z.Y.: data curation, formal analysis, investigation, methodology, writing – orig -
+inal draft, and writing – review & editing. X.M.: methodology, formal analysis, 
+and validation. X.Y.: funding acquisition, methodology, formal analysis, valida -
+tion, writing – review & editing, and supervision. Y.Z.: project administration, 
+methodology, and supervision. J.W.: project administration, funding acquisi -
+tion, supervision, and writing – review & editing. Q.S.: project administration 
+and funding acquisition. M.D.: project administration and methodology. F.Z.: 
+project administration and methodology. F.L.: project administration and 
+methodology.
+DECLARATIO N OF INTERESTS
+The authors declare no competing interests.
+SUPPLEMENTAL INFORMATION
+Supplemental information can be found online at https://doi.org/10 .1016/j. 
+device.2025.100 783 .
+Received: January 27, 2025
+Revised: February 27, 2025
+Accepted: April 10, 2025
+Published: May 1, 2025
+REFERENCES
+1. Zhou, W., Li, Y., Chen, Z., Deng, L., and Gan, Y. (2020). Ultra-thin flattened 
+heat pipe with a novel band-shape spiral woven mesh wick for cooling 
+smartphones. Int. J. Heat Mass Tran. 146 , 118792. https://doi.org /10. 
+1016/j.ijheatmasstr ansfer.2019.118792 .
+2. Wu, S., Li, T., Tong, Z., Chao, J., Zhai, T., Xu, J., Yan, T., Wu, M., Xu, Z., 
+Bao, H., et al. (2019). High-performance thermally conductive phase 
+change composites by large-size oriented graphite sheets for scalable 
+thermal energy harvesting. Adv. Mater. 31 , e1905099. https://doi.org/10. 
+1002/adma.2019050 99 .
+3. Ahamed, M.S., Saito, Y., Mashiko, K., and Mochizuki, M. (2017). Charac -
+terization of a high performance ultra-thin heat pipe cooling module for 
+mobile hand held electronic devices. Heat Mass Tran. 53 , 3241–3247. 
+https://doi.org/10.1007 /s00231-017-2022-7 .
+4. Huang, Q., Li, X., Zhang, G., Kan, Y., Li, C., Deng, J., and Wang, C. (2022). 
+Flexible composite phase change material with anti-leakage and anti-vi -
+bration properties for battery thermal management. Appl. Energy 309 , 
+118434. https://doi.org/ 10.1016/j.apenergy.2021.118 434 .
+5. Kandasamy, R., Wang, X.Q., Mujumdar, A.S., and Yang, L.X. (2015). 
+Paraffin and paraffin/aluminum foam composite phase change material 
+heat storage experimental study based on thermal management of Li- 
+ion battery. Appl. Therm. Eng. 78 , 2822–2832. https://doi.org /10.1016/j. 
+applthermaleng.2015.0 1.009 .
+6. Kandasamy, R., Wang, X.Q., and Mujumdar, A.S. (2007). Application of 
+phase change materials in thermal management of electronics. Appl. 
+Therm. Eng. 27 , 2822–2832. https://doi.org/10.1016 /j.applthermaleng. 
+2006.12.013 .
+7. Weng, J., Xiao, C., Yang, X., Ouyang, D., Chen, M., Zhang, G., Lee Waim -
+ing, E., Kit Yuen, R.K., and Wang, J. (2022). An energy-saving battery ther -
+mal management strategy coupling tubular phase-change-m aterial with 
+dynamic liquid cooling under different ambient temperatures. Renew. En -
+ergy 195 , 918–930. https://doi.org /10.1016/j.renene.2022.06 .025 .
+8. Li, J., and Lv, L. (2016). Experimental studies on a novel thin flat heat pipe 
+heat spreader. Appl. Therm. Eng. 93 , 139–146. https://doi.org/10.1016 /j. 
+applthermaleng.2015.0 9.038 .
+9. Nematollahisarvesta ni, A., Lewis, R.J., and Lee, Y.-C. (2019). Design of 
+thermal ground planes for cooling of foldable smartphones. J. Electron. 
+Packag. 141 . https://doi.org/10.1115 /1.4042472 .
+10. Peng, Y., Zhu, X., Cao, B., Luo, Y., and Zhou, W. (2019). Heat transfer and 
+permeability of the tree-like branching networks. Int. J. Heat Mass Tran. 
+129 , 801–811. https://doi.org/10.1016 /j.ijheatmasstransfer.201 8.09.121 .
+11. Wong, S.C., Huang, S.F., and Hsieh, K.C. (2011). Performance tests on a 
+novel vapor chamber. Appl. Therm. Eng. 31 , 1757–1762. https://doi.org/ 
+10.1016/j.appltherma leng.2011.02.020 .
+12. Lee, D., and Byon, C. (2018). Fabrication and characterization of pure- 
+metal-based submillimeter-thick flexible flat heat pipe with innovative 
+wick structures. Int. J. Heat Mass Tran. 122 , 306–314. https://doi.org/ 
+10.1016/j.ijheatmass transfer.2018.01.135 .
+13. Li, Y., He, J., He, H., Yan, Y., Zeng, Z., and Li, B. (2015). Investigation of 
+ultra-thin flattened heat pipes with sintered wick structure. Appl. Therm. 
+Eng. 86 , 106–118. https://doi.org /10.1016/j.applthermaleng .2015.04.027 .
+14. Yang, K.S., Tu, C.W., Zhang, W.H., Yeh, C.T., and Wang, C.C. (2017). A 
+novel oxidized composite braided wires wick structure applicable for ul -
+tra-thin flattened heat pipes. Int. Commun. Heat Mass Tran. 88 , 84–90. 
+https://doi.org/10.1016 /j.icheatmasstrans fer.2017.08.014 .
+15. Zhou, W., Li, Y., Chen, Z., Deng, L., and Gan, Y. (2019). Effect of the pas -
+sage area ratio of liquid to vapor on an ultra-thin flattened heat pipe. Appl. 
+Therm. Eng. 162 , 114215. https://doi.org/10.1016 /j.applthermaleng.2019 . 
+114215 .
+16. Li, J.K., Du, W.J., Jiang, S.L., and Tian, H. (2017). Performance of cylindri -
+cal and flattened heat pipes at various inclinations including repeatability 
+Nomenclature
+d , particle size of copper powder ( μ m)
+d
+p
+, pore size ( μ m)
+h , latent heat of vaporization (J/kg)
+m , mass flow rate (kg/s)
+Q , input power (W)
+q , heat flux (W/cm
+2
+)
+q
+m
+, heat flux per unit mass (W/(cm
+2
+⋅ g))
+R , thermal resistance (K/W)
+S , transverse area (m
+2
+)
+v , velocity(m/s)
+α , tilt angle (
+◦
+)
+β , diffusion angle (
+◦
+)
+δ , thickness (m)
+ε , porosity
+θ , contact angle (
+◦
+)
+λ , effective thermal conductivity (W/(m ⋅ K))
+μ , dynamic viscosity (Pa ⋅ s)
+ρ , density (kg/m
+3
+)
+σ , surface tension (N/m)
+Please cite this article in press as: Cui et al., A thin and lightweight miniature loop heat pipe for cooling mobile electronic devices, Device (2025), https:// 
+doi.org/10.1016/j.device.2025.1007 83
+10 Device 3 , 100783, August 15, 2025 
+Article
+ll
+
+===== PAGE 12 =====
+in anti-gravity – A comparative study. Appl. Therm. Eng. 122 , 347–354. 
+https://doi.org/10.1016 /j.applthermaleng.2017 .05.007 .
+17. Li, J.K., Du, W.J., Jiang, S.L., and Tian, H. (2009). Expression of ADAM-15 
+in rat myocardial infarction. Int. J. Exp. Pathol. 90 , 347–354. https://doi. 
+org/10.1111/j.1365-2613. 2009.00642.x .
+18. Hong, S., Wang, S., and Zhang, L. (2017). Effect of groove configuration on 
+two-phase flow instability for ultra-thin looped heat pipes in thermal man -
+agement system. Int. J. Therm. Sci. 121 , 369–380. https://doi.org/10. 
+1016/j.ijthermalsci.201 7.07.024 .
+19. Gabsi, I., Maalej, S., and Zaghdoudi, M.C. (2018). Thermal performance 
+modeling of loop heat pipes with flat evaporator for electronics cooling. 
+Microelectron. Reliab. 84 , 37–47. https://doi.org/10.1016/ j.microrel. 
+2018.02.023 .
+20. Gully, P., Mo, Q., Yan, T., Seyfert, P., Guillemet, L., Thibault, P., and Liang, 
+J. (2011). Thermal behavior of a cryogenic loop heat pipe for space appli -
+cation. Cryogenics 51 , 420–428. https://doi.org/10 .1016/j.cryogenics. 
+2011.04.009 .
+21. Okamoto, A., Miyakita, T., and Nagano, H. (2019). On-orbit experiment 
+plan of loop heat pipe and the test results of ground test. Microgravity 
+Sci. Technol. 31 , 327–337. https://doi.org/10.1007 /s12217-019-9703-4 .
+22. Maydanik, Y.F. (2005). Loop heat pipes. Appl. Therm. Eng. 25 , 635–657. 
+https://doi.org/10.1016 /j.applthermaleng.2004 .07.010 .
+23. Ambirajan, A., Adoni, A.A., Vaidya, J.S., Rajendran, A.A., Kumar, D., and 
+Dutta, P. (2012). Loop heat pipes: A review of fundamentals, operation, 
+and design. Heat Transf. Eng. 33 , 387–405. https://doi.org/10.1080 / 
+01457632.2012.61 4148 .
+24. Yang, X., Cui, Q., You, Z., Liu, J., Zhang, Y., and Wei, J. (2024). Experi -
+mental and theoretical study on performance of bi-porous wick for passive 
+phase-change devices. Phys. Fluids 36 , 123308. https://doi.org/10.1063 / 
+5.0240095 .
+25. Mo, D.C., Ding, N., and Lu, S.S. (2009). Gravity effects on the performance 
+of a flat loop heat pipe. Microgravity Sci. Technol. 21 , 95–102. https://doi. 
+org/10.1007/s12217-009- 9144-6 .
+26. Kumar, P., Sahu, G., Chatterjee, D., and Khandekar, S. (2022). Copper 
+wick based loop heat pipe for thermal management of a high-power 
+LED module. Appl. Therm. Eng. 211 , 118459. https://doi.org/10.1016 /j. 
+applthermaleng.2022.1 18459 .
+27. Pastukhov, V.G., and Maydanik, Y.F. (2007). Low-noise cooling system for 
+PC on the base of loop heat pipes. Appl. Therm. Eng. 27 , 894–901. https:// 
+doi.org/10.1016/j.applt hermaleng.2006.09.003 .
+28. Lu, X.Y., Hua, T.C., Liu, M.J., and Cheng, Y.X. (2009). Thermal analysis of 
+loop heat pipe used for high-power LED. Thermochim. Acta 493 , 25–29. 
+https://doi.org/10.1016 /j.tca.2009.03.016 .
+29. Zhao, X., Wang, Z., and Tang, Q. (2010). Theoretical investigation of the 
+performance of a novel loop heat pipe solar water heating system for 
+use in Beijing, China. Appl. Therm. Eng. 30 , 2526–2536. https://doi.org/ 
+10.1016/j.appltherma leng.2010.07.002 .
+30. Xu, Z., Lu, J., and Xing, S. (2022). Thermal performance of greenhouse 
+heating with loop heat pipe solar collector and ground source heat 
+pump. Results Eng. 15 , 100626. https://doi.org/10.1016 /j.rineng.2022. 
+100626 .
+31. Giarno, Haryanto, D., Heru, K.,G.B., Rosidi, A., Nursinta, A.W., and Ku -
+suma, M.H. (2022). Heat absorbing capability characterization of loop 
+heat pipe model’s with variation of filling ratio. AIP Conf. Proc. 2671 , 
+040003. https://doi.org/10.1063 /5.0095594 .
+32. Shioga, T., Mizuno, Y., and Nagano, H. (2020). Operating characteristic s of 
+a new ultra-thin loop heat pipe. Int. J. Heat Mass Tran. 151 , 119436. 
+https://doi.org /10.1016/j.ijheatmasstransfe r.2020.119436 .
+33. Mizutani, T., Watanabe, N., Aso, S., Sadakata, K., Tanabe, S., and Na -
+gano, H. (2022). Experimental and analytical investigation of a 0.3-mm- 
+thick loop heat pipe for 10 W-class heat dissipation. Int. J. Heat Mass 
+Tran. 193 , 122950. https://doi.org/10.1016 /j.ijheatmasstransfer.202 2. 
+122950 .
+34. Kirshberg, J., Yerkes K.L., and Yerkes, K. L. (1999). Micro-cooler for chip- 
+level temperature control. SAE Technical Paper Series, https://doi.org/10. 
+4271/1999-01- 1407 .
+35. Hsu, C.C., Kang, S.W., and Hou, T.F. (2005). Performance testing of micro 
+loop heat pipes. Journal of Aeronautics, Astronautics and Aviation 8 , 05. 
+https://doi.org /10.6180/jase.2005.8.2.05 .
+36. Fukushima, K., and Nagano, H. (2017). New evaporator structure for micro 
+loop heat pipes. Int. J. Heat Mass Tran. 106 , 1327–1334. https://doi.org/ 
+10.1016/j.ijheatma sstransfer.2016.10.116 .
+37. Zhou, G., Li, J., and Jia, Z. (2019). Power-savin g exploration for high-end 
+ultra-slim laptop computers with miniature loop heat pipe cooling module. 
+Appl. Energy 239 , 859–875. https://doi.org/10.1016 /j.apenergy.2019. 
+01.258 .
+38. Cui, Q., Ma, X., You, Z., Yang, X., Zhang, Y., and Wei, J. (2025). Bending 
+the heat: Innovative ultra-thin flexible loop heat pipes for enhanced mobile 
+device cooling. Energy Convers. Manag. 325 , 119332. https://doi.org/10. 
+1016/j.enconman. 2024.119332 .
+39. Ueno, A., Tomita, S., and Nagano, H. (2021). Experimental investigation on 
+a thin-loop heat pipe with new evaporator structure. J. Heat Tran. 143 , 
+061801. https://doi.org/10.1115 /1.4050405 .
+40. Yang, K.S., Yang, T.Y., Tu, C.W., Yeh, C.T., and Lee, M.T. (2015). A novel 
+flat polymer heat pipe with thermal via for cooling electronic devices. En -
+ergy Convers. Manag. 100 , 37–44. https://doi.org/10.1016 /j.enconman. 
+2015.04.063 .
+41. Lewis, R., Liew, L.A., Xu, S., Lee, Y.C., and Yang, R. (2015). Microfabri -
+cated ultra-thin all-polymer thermal ground planes. Sci. Bull. 60 , 
+701–706. https://doi.org/10.1007 /s11434-015-0760-9 .
+42. Liew, L.A., Lin, C.Y., Lewis, R., Song, S., Li, Q., Yang, R., and Lee, Y.C. 
+(2016). Flexible thermal ground planes fabricated with printed circuit board 
+technology. J. Electron. Packag. 139 , 011005. https://doi.org/10.1115 /1. 
+4035241 .
+43. Xu, P., and Yu, B. (2008). Developing a new form of permeability and 
+Kozeny–Carman constant for homogeneous porous media by means of 
+fractal geometry. Adv. Water Resour. 31 , 74–81. https://doi.org/10.1016 / 
+j.advwatres.2 007.06.003 .
+44. Moffat, R.J. (1988). Describing the uncertainties in experimental results. 
+Exp. Therm. Fluid Sci. 1 , 3–17. https://doi.org/10.1016 /0894-1777(88) 
+90043-X .
+Please cite this article in press as: Cui et al., A thin and lightweight miniature loop heat pipe for cooling mobile electronic devices, Device (2025), https:// 
+doi.org/10.1016/j.device.202 5.100783
+Device 3 , 100783, August 15, 2025 11 
+Article
+ll

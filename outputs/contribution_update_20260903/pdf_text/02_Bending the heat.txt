@@ -1,0 +1,1669 @@
+
+
+===== PAGE 1 =====
+Research Paper
+Bending the heat: Innovative ultra-thin flexible loop heat pipes for 
+enhanced mobile device cooling
+Qingjie Cui , Xiang Ma , Ziyi You , Xiaoping Yang
+*
+, Yonghai Zhang , Jinjia Wei
+School of Chemical Engineering and Technology, Xi ’ an Jiaotong University, Xi ’ an 710049, Shaanxi, China
+ARTICLE INFO
+Keywords:
+Loop heat pipe
+Flexible
+Tilt angle
+Bending angle
+ABSTRACT
+The rapid advancement of 5G technology has significantly accelerated the progression of mobile devices, pro -
+moting the evolution of electronic products such as smartphones, tablet computers, and virtual reality (VR) and 
+augmented reality (AR) eyewear towards an increasingly foldable design. However, due to the inherent con -
+straints of spatial and structural characteristics, conventional thermal management solutions are no longer 
+adequate to meet the performance requirements of these foldable devices. Therefore, it is imperative to develop 
+efficient thermal management solutions that are compatible with the cross-hinge structures within chip design. 
+This study proposes and fabricates a novel ultra-thin flexible loop heat pipe (UFLHP) with a thickness of merely 
+0.7 mm to address the heat transfer challenges posed by cross-hinge designs. By utilizing powder sintering and 
+wire cutting techniques, an innovative approach has been developed for fabricating a metallic powder wick with 
+a thickness of 0.4 mm. During the experiments, ethanol was employed as the working fluid to systematically 
+investigate the effects of thermal loading, tilt angle, and bending angle on the steady-state heat transfer per -
+formance of the UFLHP. The experimental results indicate that the maximum heat flux density of the UFLHP 
+reaches 5 W/cm2. Under this heat flux density, the evaporator temperature of the UFLHP attains 72.15 
+◦
+C, while 
+the thermal resistance is measured at 2.48 K/W, resulting in an effective thermal conductivity of 10,273.27 W/ 
+(m ⋅ K). The tilt angle has a beneficial effect on the UFLHP ’ s performance under gravitational influence, while the 
+bending angle adversely affects its performance due to increased flow resistance. This research provides a 
+feasible solution for the heat dissipation challenges in foldable electronic devices.
+1. Introduction
+With the rapid development of mobile technology, foldable devices 
+have emerged as a significant trend in the design of future electronic 
+products [1] . Particularly, smartphones and wearable devices have 
+gained widespread popularity due to their lightweight and multiple 
+functions. As a key component of foldable devices, Augmented Reality 
+(AR) and Virtual Reality (VR) equipment typically operate with power 
+consumption ranging from 1 to 5 W, leading to increasingly severe heat 
+dissipation challenges [2] . Excessive temperature not only affects device 
+performance but also leads to a decline in user experience. Although 
+existing cooling technologies such as passive cooling and fan-assisted 
+cooling can address heat dissipation to some extent, their limitations 
+are becoming increasingly apparent in the cross-hinge designs of fold -
+able devices. Consequently, there is an urgent need for flexible and high- 
+efficiency thermal management components for electronic devices.
+The flexible functionality of heat dissipation components is typically 
+achieved through various means, including elongated metal tubes or 
+corrugated metal pipes that leverage the inherent ductility of metals [3] , 
+coiled tubing that leverages material deformation capabilities [4] , as 
+well as forms like organic polymer hoses [5,6] . Currently, technologies of 
+flexible vapor chamber and flexible heat pipe are the mainstream in 
+flexible thermal management components. Daehoon et al. [7] developed 
+a metal-based flexible vapor chamber made of copper and employed the 
+superhydrophilic-treated copper mesh as the capillary wick. During the 
+sealing process, they used spark plasma sintering technology to mini -
+mize the mechanical performance loss of the metal casing and found that 
+in the unbent state it achieved a maximum effective thermal conduc -
+tivity of 3,000 W/(m ⋅ K). Yu et al. [8] created a stainless steel-based 
+flexible vapor chamber using brazing and laser welding techniques, 
+achieving a maximum effective thermal conductivity greater than 
+26,000 W/(m ⋅ K) in a horizontal position. Although flexible vapor 
+chambers excelled in surface temperature uniformity, they were more 
+suitable for large-area heat dissipation applications and struggled with 
+long-distance heat transfer. Liu et al. [9] created a flexible heat pipe 
+* Corresponding author.
+E-mail address: yxping@xjtu.edu.cn (X. Yang). 
+Contents lists available at ScienceDirect
+Energy Conversion and Management
+journal homepag e: www.el sevier.com/loc ate/enconm an
+https://doi.org/10.1016/j.enconman.2024.119332
+Received 12 August 2024; Received in revised form 26 November 2024; Accepted 26 November 2024  
+Energy Conversion and Management 325 (2025) 119332 
+Available online 6 December 2024 
+0196-8904/© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+
+===== PAGE 2 =====
+using aluminum-plastic composite film as the outer shell and stainless 
+steel mesh as the capillary wick. This flexible heat pipe could bend from 
+0
+◦
+to 180
+◦
+in the horizontal operation state, showing no significant 
+performance degradation after repeated bending tests. Furukawa Com -
+pany proposed a flexible heat pipe called ’ PERA-FLEX ’ [10] , which 
+featured a structure cased by a thin copper foil and integrating the 
+evaporator, condenser, and vapor – liquid line into a single unit. This 
+structure was convenient for manufacturing but lacked a capillary wick, 
+resembling more of a vapor chamber. This raised concerns about its 
+gravity resistance. OSHMAN et al. [11 – 13] employed various polymer 
+films as raw materials to create multiple flexible flat heat pipes, all 
+utilizing sintered copper mesh as the capillary wick, with the copper 
+mesh superhydrophilic-treated to enhance liquid absorption perfor -
+mance. Hsieh et al. [14] created a polymer-based flexible flat heat pipe 
+using silicone rubber as the substrate and copper mesh as the wick. The 
+polymer heat pipe could exhibit significant flexibility and good thermal 
+performance under severe bending conditions. Yang et al. [15] manu -
+factured a flexible heat pipe featuring an integrated bionic wick struc -
+ture and the flexible polyurethane connector design. However, the 
+capillary wick of the heat pipe was widely distributed throughout the 
+internal structure, with gas and liquid flowing in the same channel, 
+resulting in considerable flow resistance. This led to relatively weak 
+performance in long-distance heat transfer and operation in reversible 
+gravity environments, limiting its promotion and application.
+Loop heat pipes, which consist of an evaporator, compensation 
+chamber, condenser, capillary wick, vapor line, and liquid line [16 – 20] , 
+also use a capillary mechanism to pump fluid. Compared to heat pipes, 
+loop heat pipes are better suited for complex thermal management en -
+vironments due to their separation of gas and liquid lines, high heat 
+transfer coefficients, and capability for long-distance transport, making 
+it a preferred heat transfer device for thermal management of electronic 
+components in space vehicles [21 – 23] . In recent years, loop heat pipes 
+have also gained attention for thermal management and heat transfer 
+under ground conditions and have been widely applied in fields such as 
+heat dissipation for high heat flux density electronic devices [21,24,25] , 
+waste heat recovery [26,27] , thermal management of aircraft [28,29] , 
+and solar energy utilization [30,31] . Conventional-sized loop heat pipes 
+have been the subject of decades of research and application, and 
+scholars have been studying the effects of various external factors (such 
+as heating power, rotation angles, etc.) and internal factors (such as 
+working fluid type, fill ratio, and materials and structures of compo -
+nents) on the performance of the loop heat pipes [32 – 34] . In addition to 
+continuously exploring and optimizing traditional loop heat pipes, 
+researchers are also seeking breakthroughs in the field of micro loop 
+heat pipes (mLHP) to enhance the performance and applicability of loop 
+heat pipe systems. Watanabe et al. [35] developed a mLHP using a 
+porous glass capillary wick, achieving a maximum heat transfer per -
+formance of 15 W (60 W/cm
+2
+). Shioga et al. [36] developed a mLHP 
+using a chemical etching and diffusion bonding process with thin copper 
+plates. Experimental results showed that under a thermal input of 20 W, 
+the thermal resistance between the evaporator and condenser reached 
+0.11 K/W, and the operational direction had minimal impact on the 
+mLHP. Takuji et al. [37] designed a 0.3 mm-thick mLHP for cooling 
+mobile devices, demonstrating a maximum heat transfer performance of 
+10 W/cm
+2
+, with a minimum thermal resistance and effective thermal 
+conductivity of 2.51 K/W and 2,438 W/(m ⋅ K). Notably, all the above- 
+mentioned mLHP featured rigid structures, and there have not yet 
+been applications or related technical patents for ultra-thin flexible loop 
+heat pipe (UFLHP). Research on conventional-sized flexible loop heat 
+pipes remains relatively limited. Xu et al. [38] effectively achieved 
+flexible functionality in loop heat pipe (thickness: 41 mm) by combining 
+a stainless steel braided liner with a smooth PTFE metal hose, resulting 
+in a vapor line length of nearly 5 m and a maximum heat transfer rate 
+exceeding 700 W. Additionally, Lee et al. [39] introduced metal bellows 
+in the vapor – liquid lines of loop heat pipe (thickness: 31 mm) to achieve 
+flexible functionality. Under conditions using water as the working 
+fluid, their study demonstrated a minimum thermal resistance of 0.25 K/ 
+W at a heat load of 320 W.
+This study presents a novel ultra-thin flexible loop heat pipe struc -
+ture (UFLHP) with a thickness of 0.7 mm, alongside the development of 
+an innovative ultra-thin metal powder wick measuring 0.4 mm, ach -
+ieved through powder sintering and wire cutting technology. By 
+replacing the gas – liquid line of the loop heat pipe with flexible tubing 
+made from polytetrafluoroethylene (PTFE), the design incorporates 
+woven copper wire treated with oxalic acid in the liquid line as a sec -
+ondary capillary structure to facilitate liquid return. The proposed 
+UFLHP design embodies two key innovations: it synergistically com -
+bines the excellent thermal conductivity of metallic materials with the 
+flexibility of PTFE, thereby significantly enhancing thermal perfor -
+mance while ensuring structural adaptability under varying environ -
+mental conditions. Furthermore, the study introduces a novel 
+trapezoidal serrated capillary wick design that allows for the integration 
+of vapor and liquid pathways on the same side of the evaporator. This 
+optimization not only effectively reduces the overall size of the device 
+but also showcases substantial potential in applications requiring high 
+thermal performance and spatial integration, particularly in augmented 
+Nomenclature
+A Heat transfer area(m
+2
+)
+C Condenser
+C
+p
+Specific heat at constant pressure (J ⋅ kg
+  1
+⋅ K
+  1
+)
+D
+h
+Equivalent diameter
+Env Environment
+Evap Evaporator
+Evap-in Evaporator inlet
+Evap-out Evaporator outlet
+h
+fg
+Latent heat of vaporization (J ⋅ kg
+  1
+)
+I Heat current(A)
+K Permeability
+K
+eff
+Effective thermal conductivity
+L Thermal transfer distance(m)
+m Mass flow rate(kg ⋅ s
+  1
+)
+PTFE Polytetrafluoroethylene
+Q Heat load(W)
+r
+eff
+Effective radius of curvature
+R Thermal resistance(K/W)
+S Cross-sectional area(m
+2
+)
+T Temperature( ℃ )
+U Heating voltage(V)
+UFLHP Ultra-thin and flexible loop heat pipe
+V Flow velocity(m ⋅ s
+  1
+)
+W Wick
+Δ P
+cap
+Capillary force
+Greek letter
+α Tilt angle (
+◦
+)
+β Bending angle (
+◦
+)
+θ Contact angle
+µ Dynamic viscosity(Pa ⋅ s)
+σ Surface tension coefficient(N/m)
+λ
+eff
+Effective thermal conductivity (W/(m ⋅ K))
+ρ Density (kg ⋅ m
+  3
+)
+δ Thicknesses(m)
+ε porosity
+Q. Cui et al.                                                                                                                                                                                                                                      Energy Conversion and Management 325 (2025) 119332 
+2 
+
+===== PAGE 3 =====
+reality (AR) and virtual reality (VR) devices. The heat transfer charac -
+teristics of the UFLHP were experimentally investigated under different 
+heating powers, tilt angles, and bending angles, ultimately providing a 
+viable solution for heat dissipation in foldable electronic products.
+2. Experimental apparatus
+2.1. Experimental rig
+Currently, UFLHP is designed and manufactured based on AR de -
+vices. Since the main control chips of most AR devices are located on the 
+side of the temples, the evaporator end of the UFLHP is positioned on the 
+temple side, as shown in Fig. 1 . The vapor and liquid channels pass 
+through the hinge structure, while the condenser end is placed at the 
+bridge position and cooled by natural air convection. Fig. 2 (a) illustrates 
+the structural schematic of the UFLHP and the locations of the temper -
+ature measurement points. The UFLHP consists of an evaporator, 
+condenser, vapor line, liquid line, capillary wick, and secondary capil -
+lary wick. Compared to traditional loop heat pipes, the UFLHP features 
+an improvement in the evaporator with a gas – liquid co-planar design, 
+integrating the original compensation chamber structure into the liquid 
+line to reduce thickness. Under known heat input conditions, the heat 
+transfer performance of the UFLHP is evaluated by measuring the tem -
+peratures at various points. In the experiment, seven K-type thermo -
+couples were connected to the surface of the UFLHP: the center of the 
+evaporator (Evap), the outlet of the evaporator (Evap-out), different 
+sections of the condenser (C-1, C-2, C-3, C-4), and the return section of 
+the evaporator (Evap-in). A thermocouple with the accuracy of ± 0.5 K 
+monitors the ambient temperature. The evaporator is constructed from 
+high-strength brass, while the capillary wick is made of copper. The 
+cover plate, capillary wick, and bottom plate are welded together by 
+using a diffusion welder, with the internal structure illustrated in Fig. 2
+(b). To ensure stability, bendability, and high gas tightness, flexible 
+material for the vapor and liquid line is selected to be polytetrafluoro -
+ethylene (PTFE), as shown in Fig. 2 (c). The seal between the evaporator 
+and the PTFE tubing is achieved by using 3 M ’ s DP420 epoxy AB glue. 
+The basic parameters and material information relevant to the experi -
+ment are presented in Table 1 . During the experiment, a ceramic heater 
+measuring 10 mm × 10 mm was used to provide heat load to the 
+evaporator, with different heating conditions simulated by adjusting the 
+output current of the DC power supply.
+The capillary forces generated by the capillary wick serve as a 
+driving force for the loop heat pipe. In the UFLHP, the capillary wick is 
+divided into a primary capillary wick and secondary capillary wick. The 
+former is made from 100 µ m brass powder and is produced through four 
+steps: molding, sintering, cleaning, and wire-electrode cutting, as shown 
+in Fig. 3 . The ultra-thin thickness of the metal powder wick of only 0.4 
+mm is difficult to achieve in a single sintering, so a large capillary wick is 
+first sintered and then cut by using a wire electric discharge machine to 
+obtain the desired wick structure. The upper part of the main capillary 
+wick is designed in a rectangular shape to facilitate gas – liquid separa -
+tion, while the lower part has a serrated structure that serves as the 
+vapor channel. The secondary capillary wick is positioned along the 
+liquid line and is welded to the mian capillary wick, as illustrated in 
+Fig. 2 (b). This secondary capillary wick exhibits strong deformability, 
+ensuring that its placement within the pipe does not hinder the flexi -
+bility characteristics of the UFLHP. The design of the secondary capillary 
+wick aims to provide additional capillary driving force for the UFLHP, 
+facilitating a more rapid flow of the working fluid toward the main 
+capillary wick during the condensation process, owing to the capillary 
+action of the secondary capillary wick. Moreover, the secondary capil -
+lary wick possesses a certain liquid storage capacity, effectively pre -
+venting the primary capillary wick from drying out. The secondary 
+capillary wick is constructed from spiral woven copper wire with a mesh 
+count of 14 and a porosity of 68.9 %, as shown in Fig. 4 . This material is 
+placed in a mixture of 300 ml of water and 10 g of oxalic acid, then 
+heated in a 50 
+◦
+C water bath for treatment, followed by 30 min of ul -
+trasonic cleaning, a thorough rinse with clean water, and final vacuum- 
+drying.
+In the experimental setup, a rotating platform testing UFLHP gravity 
+performance was employed, in which the entire UFLHP testing appa -
+ratus was mounted. In this experimental configuration, the tilt angle 
+between the evaporator and the horizontal plane was denoted as α
+◦
+, as 
+illustrated in Fig. 5 (a). To investigate the impact of bending perfor -
+mance on the UFLHP, the bending angle between the plane of the 
+evaporator and that of the condenser was defined as β
+◦
+, as depicted in 
+Fig. 5 (b). Initially, primary vacuum was achieved by using a mechanical 
+pump, followed by secondary vacuum facilitated by a molecular pump. 
+Once the pressure was reduced to below 0.1 Pa, the evacuation valve 
+was closed, and the liquid injection valve was opened. Subsequently, the 
+working fluid was injected, with ethanol selected as the working me -
+dium, and the filling ratio maintained at 30 %. Upon completion of the 
+injection process, the injection port was severed and sealed simulta -
+neously by using a tube welding apparatus. The cooling method design 
+employed natural air cooling technology, with the environment tem -
+perature regulated at 23 
+◦
+C through an air conditioning system to ach -
+ieve an effective natural air cooling process. To ascertain the thermal 
+performance of the UFLHP, several sets of thermal performance exper -
+iments were conducted, as detailed in Table 2 .
+2.2. Data reduction and uncertainties
+2.2.1. Data reduction
+As illustrated in Fig. 6 , the total thermal load Q
+in 
+applied to the 
+heating surface of the evaporator is partitioned into two components: 
+the heat required for evaporation Q
+e 
+and the heat dissipated from the 
+evaporator casing to the surrounding environment Q
+a
+. 
+Fig. 1. Schematic diagram of UFLHP placement.
+Q. Cui et al.                                                                                                                                                                                                                                      Energy Conversion and Management 325 (2025) 119332 
+3 
+
+===== PAGE 4 =====
+Q
+in
+= UI = Q
+e
++ Q
+a
+(1) 
+Q
+a 
+is only less than 3 % of Q
+in 
+and is ignored in subsequent 
+calculations: 
+Q
+in
+= Q
+e
+(2) 
+The heat Q
+e 
+used for evaporation is divided into the sum of the heat 
+leakage Q
+leak 
+to the evaporator inlet through the thermal conductivity of 
+the shell and the heat Q
+v 
+transferred to the gas – liquid interface on the 
+capillary wick surface for evaporation. 
+Q
+e
+= Q
+leak
++ Q
+v
+(3) 
+Heat flow density q calculation formula: 
+q =
+Q
+A
+(4) 
+Thermal resistance as an important indicator for evaluating the heat 
+transfer efficiency of UFLHP is the ratio of the heat transfer temperature 
+difference to the heat transfer power.
+The total thermal resistance R
+total 
+is calculated as: 
+R
+total
+= R
+UFLHP
++ R
+Env
+=
+T
+Evap
+  T
+Env
+Q
+in
+(5) 
+Where Q
+in 
+is the heat input to the evaporator, T
+Evp 
+is the temperature 
+at the centre of the evaporator, and Tenv is the ambient temperature. 
+R
+UFLHP 
+is the UFLHP thermal resistance and R
+Env 
+is the thermal resis -
+tance between the condenser and the environment. The thermal 
+Fig. 2. Configuration of (a) the UFLHP, (b) the evaporator, (c) picture of the UFLHP and (d) the experimental set-up.
+Q. Cui et al.                                                                                                                                                                                                                                      Energy Conversion and Management 325 (2025) 119332 
+4 
+
+===== PAGE 5 =====
+resistance R
+total 
+is an indicator of the heat transfer capacity between the 
+UFLHP evaporator and the environment.
+The UFLHP thermal resistance R
+UFLHP 
+is calculated as: 
+R
+UFLHP
+=
+T
+Evap
+  T
+Cond
+Q
+in
+(6) 
+Where T
+cond 
+is the average condenser temperature (average tem -
+perature at points C-1, C-2, C-3 and C-4), independent of environment 
+temperature.
+The evaporator thermal resistance R
+Evap 
+is calculated as: 
+R
+Evap
+=
+T
+Evap
+  T
+Evap   out
+Q
+in
+(7) 
+The vapour line thermal resistance R
+Evap-out 
+is calculated as: 
+R
+Evap   out
+=
+T
+Evap   out
+  T
+C   1
+Q
+in
+(8) 
+The condenser thermal resistance R
+Cond 
+is calculated as: 
+R
+Cond
+=
+T
+C   1
+  T
+Cond
+Q
+in
+(9) 
+The thermal resistance R
+Env 
+on the condensing side is calculated as: 
+R
+Env
+=
+T
+Cond
+  T
+Env
+Q
+in
+(10) 
+The equivalent thermal conductivity λ
+eff 
+of the LHP is calculated as: 
+λ
+eff
+=
+L
+R
+UFLHP
+× S
+(11) 
+Where L represents the heat transfer distance and S represents the 
+cross-sectional area of the LHP.
+This paper presents a theoretical model designed to calculate the 
+pressure drop and capillary force within the ultra-thin flexible loop heat 
+pipe (UFLHP). The model is used to assess the effectiveness of the 
+capillary wick in meeting the operational requirements and to identify 
+potential design optimization directions to enhance the heat transfer 
+efficiency.
+The basic condition for the LHP to work properly is that the capillary 
+pressure Δ P
+cap 
+is greater than the line pressure drop: 
+Δ Pcap ≥ Δ Pv + Δ PL + Δ Pcond + Δ Pw (12) 
+Where: Δ P
+cap 
+is the capillary pressure, Δ P
+v 
+is the vapor line pressure 
+drop, Δ P
+L 
+is the liquid line pressure drop, Δ P
+cond 
+is the condenser 
+pressure drop, and Δ P
+w 
+is the pressure drop of the liquid inside the 
+capillary wick.
+The capillary pressure Δ P
+cap 
+is calculated as: 
+Δ Pcap =
+2 σ cos θ
+reff
+(13) 
+where σ is the surface tension coefficient of the working substance, θ is 
+the contact angle between the working substance and capillary wick, 
+and r
+eff 
+is the effective radius of curvature of the curved lunar surface.
+For unidirectional flow in a horizontal line, the pressure drop Δ P is 
+calculated as: 
+Δ P = f
+l
+D
+h
+1
+2
+ρ V
+2
+(14) 
+where f is the friction coefficient, which for laminar flow is given by: 
+f =
+64
+Re
+(15) 
+Due to the relatively low heating power of the UFLHP and the small 
+diameter of the conduits, both the gas and liquid pathways exhibit 
+laminar flow characteristics.
+Assuming that the vapor at the evaporator outlet is in a saturated 
+state, and the subcooling of the liquid at the evaporator inlet is repre -
+sented by Δ T
+sub
+, the mass flow rate of the generated vapor can be 
+calculated by using the following equation based on the principle of 
+energy conservation: 
+m
+v
+=
+Q
+in
+h
+fg
++ Cp Δ T
+sub
+(16) 
+where h
+fg 
+is the latent heat of evaporation of the working fluid and Cp 
+represents the constant pressure specific heat capacity of the tubular 
+working substance.
+According to conservation of mass, the flow rate in the line is: 
+V =
+m
+v / l
+ρ
+v / l
+A
+(17) 
+The criterion for the flow state in the tube is the Reynolds number Re, 
+defined as: 
+Re =
+ρ VD
+h
+μ
+(18) 
+Where ρ represents the density of the working fluid, V denotes the 
+average flow velocity across the pipe cross-section, D
+h 
+indicates the 
+equivalent diameter; and μ signifies the dynamic viscosity of the work -
+ing fluid.
+After the saturated vapor enters the condenser, it goes through two 
+stages: the two-phase region and the single-phase region. The pressure 
+drop in the liquid phase is calculated by using Equation (14) . Since the 
+two-phase region involves a mixture of vapor and liquid, calculating the 
+pressure drop Δ P becomes quite complex, particularly in microchannels. 
+And there is no mature theoretical model available that can fully 
+describe it. In this study, a simplifying assumption is adopted that only 
+vapor and liquid phases are present within the condenser, with each 
+phase occupying half of the volume within the condenser ’ s tubing. This 
+assumption allows for an estimation of the pressure drop in the 
+condenser under extreme conditions.
+The formula for calculating the flow resistance of the working fluid 
+in the capillary wick is given by: 
+Δ P
+w
+= m
+v
+μ
+L
+δ
+w
+K
+w
+A
+w
+ρ
+L
+(19) 
+Where δ represents the thickness, K denotes the permeability, with 
+subscripts, w indicating the capillary wick, v representing vapor, L 
+indicating liquid. 
+K
+w
+=
+d
+2
+ε
+3
+180 ( 1   ε )
+2
+(20) 
+Table 1 
+Dimensions of the UFLHP.
+Components Material Dimensions
+evaporator brass Overall size: 30 × 15 × 0.7 mm
+3
+Inner cavity size: 26 × 11 × 0.4 mm
+3
+Active heating area:10 × 10 mm
+2
+main capillary wick brass Porosity:62.6 %
+Pore size:18 μ m
+Grain size:100 μ m 
+Overall size: 26 × 11 × 0.4 mm
+3
+(serrated, select outside size)
+secondary capillary wick copper Mesh of copper wire: 14 mesh
+Porosity: 68.9 %
+Length: 105 mm
+coolers PTFE Length: 55 mm
+Diameter: 3 × 2 mm
+2 
+(O/I)
+vapor line PTFE Length: 80 mm
+Diameter: 3 × 2 mm
+2 
+(O/I)
+liquid line PTFE Length: 80 mm
+Diameter: 3 × 2 mm
+2 
+(O/I)
+Q. Cui et al.                                                                                                                                                                                                                                      Energy Conversion and Management 325 (2025) 119332 
+5 
+
+===== PAGE 6 =====
+where d represents the powder particle size or screen diameter, and ε is 
+the capillary wick porosity. 
+Δ P
+cap
+≥ Δ Pv + Δ PL + Δ Pcond + Δ P
+w
+1075 Pa ≥ 10 . 77 Pa + 0 . 79 Pa + 3 . 97 Pa + 189 . 85 Pa
+(21) 
+The calculated capillary force generated by the capillary wick ex -
+ceeds the overall flow resistance of the working fluid in the line, 
+indicating that the device meets the fundamental conditions for the 
+normal operation of LHP.
+2.2.2. Uncertainties
+The wattmeter employed for measuring power introduces an un -
+certainty of 0.5 %. The uncertainty associated with geometric dimension 
+measurements varies between 0.5 % and 1 %. Moreover, the uncertainty 
+Fig. 3. Main capillary wick.
+Q. Cui et al.                                                                                                                                                                                                                                      Energy Conversion and Management 325 (2025) 119332 
+6 
+
+===== PAGE 7 =====
+estimated for the electronic balance measurements is ± 0.05 mg.
+The uncertainty in the thermal resistance of the UFLHP encompasses 
+temperature errors associated with both the evaporator and condenser, 
+as well as the errors in power measurement. To estimate the uncertainty 
+of the calculated result Y, the error propagation formula proposed by 
+Moffat [35] is employed. This formula can be expressed as follows: 
+Y = Y ( X
+1
+, X
+2
+, ⋯ , X
+N
+) (22) 
+Fig. 4. Structure of the secondary capillary wick.
+Q. Cui et al.                                                                                                                                                                                                                                      Energy Conversion and Management 325 (2025) 119332 
+7 
+
+===== PAGE 8 =====
+Δ Y =
+̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ ̅̅̅̅̅ ̅
+∑
+N
+i = 1
+(
+∂ y
+∂ x
+Δ X
+i
+)
+2
+√
+√
+√
+√
+(23) 
+In this expression, Y represents the computed result, while X denotes 
+a set of measured values. Δ Y signifies the uncertainty associated with Y , 
+Δ X
+i 
+represents the uncertainty in the measurement X
+i
+, and ∂ Y / ∂ X
+i 
+in -
+dicates the partial derivative of Y with respect to X
+i
+. By utilizing this 
+error propagation formula, the uncertainty of the computed result Y can 
+be estimated, taking into account the uncertainties inherent in the 
+measured values X and their impact on Y . This analytical approach 
+provides a more accurate and reliable estimation of the uncertainty 
+associated with the results.
+The uncertainty analysis was conducted for both directly measured 
+and calculated parameters, with the results meticulously detailed in 
+Table 3 .
+The practical application of UFLHP primarily focuses on AR and VR 
+devices, where manufacturing precision is crucial. The evaporator and 
+capillary wick are fabricated using diffusion bonding and wire-cutting 
+techniques, and their dimensional accuracy relies on the precision of 
+the welded graphite and the wire-cutting equipment. It is noteworthy 
+that the capillary wick is only utilized in the evaporator welding process 
+when its thickness is 0.4 mm. The measurement results of the thickness 
+for 19 sets of evaporators are detailed in Table 4 , indicating that UFLHP 
+has a high manufacturing precision, which supports its performance in 
+practical applications.
+3. Results and discussion
+3.1. Thermodynamic property of the UFLHP
+Fig. 7 illustrates the temperature – pressure (P-T) diagram of the work 
+fluid cycle within the UFLHP, effectively depicting the various physical 
+processes that occur, such as evaporation, flow, and condensation. 
+During the normal operation of the UFLHP, the heat from the thermal 
+source is transferred to the capillary wick through the base of the 
+Fig. 5. Schematic diagram of the angle between the gravity resistance test and the bending performance test.
+Table 2 
+Experimental conditions setup of the UFLHP.
+Filling rate Q/W Tilt angle α /
+◦
+Bending angle β /
+◦
+30 % 1 、 2 、 3 、 4 、 5 0 0
+4 0 、 30 、 60 、 90 0
+90 0 、 30 、 60 、 90
+Q. Cui et al.                                                                                                                                                                                                                                      Energy Conversion and Management 325 (2025) 119332 
+8 
+
+===== PAGE 9 =====
+evaporator, causing the liquid on the lower surface of the wick to heat up 
+and evaporate to thus generate saturated vapor (point 1). This saturated 
+vapor then enters the vapor line, experiencing slight superheating at the 
+evaporator outlet (points 1 to 2). In traditional LHP systems, the flow of 
+superheated vapor within the vapor line is typically regarded as 
+isothermal. In traditional LHP systems, the flow of superheated vapor 
+within the vapor line is typically regarded as isothermal. However, in 
+the case of the UFLHP, the vapor line and condenser are constructed 
+from the same PTFE material, preventing the assumption of isothermal 
+behavior (points 2 to 3). The vapor then enters the condenser, where it 
+undergoes a transformation from superheated vapor to saturated vapor, 
+followed by saturated liquid and finally subcooled liquid (points 3 to 6). 
+The subcooled liquid flows along the liquid line (points 6 to 7) and 
+subsequently traverses the capillary wick to reach the evaporation zone 
+for phase change heat transfer (points 7 to 8 to 1).
+The P-T diagram of the operating cycle illustrates that four points lie 
+on the saturation line, corresponding to the states of the working fluid at 
+the evaporator, condenser, and the vapor – liquid interface of the capil -
+lary wick. In the evaporation zone (T
+1
+), the temperature and pressure of 
+the saturated vapor are at their highest, while at the vapor – liquid 
+interface (T
+8
+), both the temperature and pressure are at their lowest. To 
+Fig. 6. Schematic diagram of thermal resistance network nodes of UFLHP.
+Table 3 
+Experimental conditions setup of the UFLHP.
+Parameters Δ Y / Y Numerical value
+Temperature Δ T 0.5 ℃
+Heating voltage Δ U / U 0.50 %
+Heating current Δ I / I 0.50 %
+Heating area Δ A / A 0.70 %
+Heat load Δ Q / Q 0.70 %
+Total thermal resistance Δ R
+total
+/ R
+total
+1.30 %
+Equivalent thermal conductivity Δ λ
+eff 
+/ λ
+eff
+7.10 %
+Table 4 
+Evaporator and capillary wick thickness measurements.
+Part Thicknesses
+Evaporator 17 (0.7 mm) 
+2 (0.69 mm)
+Capillary wick 19 (0.4 mm)
+Fig. 7. P-T curve of the UFLHP.
+Fig. 8. Startup characteristics of the UFLHP( α = 0
+◦
+, β = 0
+◦
+, Q
+in 
+= 4 W).
+Q. Cui et al.                                                                                                                                                                                                                                      Energy Conversion and Management 325 (2025) 119332 
+9 
+
+===== PAGE 10 =====
+initiate and maintain normal operation, it is essential to establish a 
+certain temperature difference between the evaporation zone and the 
+vapor – liquid interface. This temperature gradient enables the working 
+fluid to flow along the vapor line through the condenser and the liquid 
+line towards the evaporator, creating a necessary pressure drop. This 
+pressure drop is critical for ensuring the continuous circulation of the 
+working fluid and the efficiency of the overall cycle. 
+T
+1
+  T
+G   L
+= ( Δ P
+12
++ Δ P
+23
++ Δ P
+34
++ Δ P
+45
++ Δ P
+56
++ Δ P
+6 G   L
+)
+dT
+dP
+⃒
+⃒
+⃒
+⃒
+T
+(24) 
+where T represents the average temperature within the temperature 
+range from T
+1 
+to T
+G-L
+.
+3.2. Start-up characteristics
+The assessment of performance and industrial application of UFLHP 
+necessitates a thorough inquiry into their startup characteristics. Fig. 8
+illustrates the operational process under conditions of a thermal load of 
+4 W with a tilt angle α of 0
+◦
+and a bending angle β of 0
+◦
+. The overall 
+operation can be delineated into three principal stages. Stage I: Vapor 
+Generation Phase. Upon the application of thermal load, the tempera -
+ture of the evaporator T
+Evap 
+exhibits a rapid increase. Initially, the 
+working fluid in the evaporator is in a subcooled state. The fluid absorbs 
+the heat within the evaporator and evaporated, eventually reaching the 
+evaporator outlet. The completion of this phase is marked by a rapid 
+increase in the evaporator outlet temperature T
+Evap-out
+. Stage II: Liquid 
+Phase Reflux Phase. In this stage, the generated vapor sequentially tra -
+verses the points of C-1, C-2, C-3, and C-4, with each point experiencing 
+a rapid escalation in temperature. Notably, due to the thermal conduc -
+tivity effects of the bottom and cover plates, the rise in evaporator inlet 
+temperature T
+Evap-in 
+occurs between the transition of the evaporator 
+outlet and the point C-1. Throughout this phase, the UFLHP cycle has not 
+yet fully established, as evidenced by the continuous increase in the 
+evaporator outlet temperature T
+Evap-out 
+until a minimal quantity of 
+working fluid reaches at the evaporator inlet, propelled by the capillary 
+forces within the secondary capillary wick. The completion of this stage 
+is indicated by a subsequent decline in the evaporator inlet temperature 
+T
+Evap-in
+. Stage III: Cycle Establishment Phase. As the evaporator tem -
+perature continues to rise, the generation of vapor further escalates. The 
+greater volume of liquid-phase working fluid refluxes to the evaporator 
+inlet, resulting in the continuous decrease in the evaporator inlet tem -
+perature T
+Evap-in
+, and more heat becomes involved in the cycle. The 
+gradual attainment of thermal equilibrium signifies the completion of 
+this stage.
+Fig. 9 (a) illustrates the time required for the startup process of the 
+UFLHP under a thermal load of 4 W across three stages for different tilt 
+angles α . The results indicate that as the tilt angle α increases, the time 
+required to establish the cycle gradually decreases, and the duration of 
+all three stages shows a downward trend. The variation in the time 
+required for Stage I is primarily attributed to the high vacuum level 
+within the UFLHP, which results in a reduced influence of gravity on gas 
+flow. In this case, the gas will follow the laws of hydrodynamics and 
+move along the tilt direction of the pipe, making it easier to discharge 
+upwards. As the degree of tilt angle increases, the vapor is more readily 
+expelled from the evaporator, thereby shortening the time required for 
+Stage I. The variation in the time required for Stage II is primarily due to 
+the following three factors: First, the increase in the tilt angle α allows 
+the vapor to reach the condenser more quickly for condensation. Second, 
+once the vapor has condensed into liquid in the condenser, it is more 
+significantly influenced by gravity. Finally, the increase in the tilt angle 
+α enables the working fluid to make contact with the secondary capillary 
+wick earlier, promoting the return flow of the liquid to the evaporator 
+through capillary action. The variation in the time required for Stage III 
+is primarily due to the relatively short durations of the first two stages, 
+which results in a smaller temperature increase at the evaporator inlet 
+T
+Evap-in 
+at the beginning of the cycle establishment. This consequently 
+shortens the time required to reach the equilibrium temperature. 
+Notably, as the tilt angle increases, the optimization effect on the startup 
+time varies. The research findings indicate that in the UFLHP, when the 
+tilt angle α exceeds 0
+◦
+, the startup becomes easier. Specifically, within 
+the range of α from 0
+◦
+to 30
+◦
+, the variation in startup time is the largest, 
+at 40.57 %. Stage I accounts for 0.44 %, Stage II for 19.51 %, and Stage 
+III for 20.62 %. These data reflect the significant influence of gravity on 
+the UFLHP system.
+The bending performance is achieved through the flexibility of PTFE 
+pipes. In this study, the fixture was used to test the bending performance 
+of the UFLHP. The experimental results show that in the UFLHP system, 
+when the tilt angles α are 0
+◦
+, 30
+◦
+, and 60
+◦
+, the flow of both the vapor and 
+liquid working fluids experiences a sharp increase in resistance at the 
+bend. This makes it difficult for the vapor to effectively reach the 
+condenser for condensation, and the condensed liquid struggles to re -
+turn to the evaporator, resulting in a continuous increase in the evap -
+orator temperature. At α = 90
+◦
+, the gravity-induced effect of the 
+auxiliary return flow is enhanced, which helps maintain the stable 
+operation of the system, allowing the UFLHP to function properly even 
+Fig. 9. Time required for each stage of the start-up process for UFLHP at (a) 
+different angles of 4 W and (b) different bending angles at α = 90
+◦
+of 4 W.
+Q. Cui et al.                                                                                                                                                                                                                                      Energy Conversion and Management 325 (2025) 119332 
+10 
+
+===== PAGE 11 =====
+with the presence of bending angles.
+Fig. 9 (b) presents the time required for the startup process of the 
+UFLHP under a heat load of 4 W and with a tilt angle α of 90
+◦
+at different 
+bending angles β . The study results indicate that as the bending angle β 
+increases, the time required for the establishment of circulation also 
+increases. Specifically, Stage I is not significantly affected. This is 
+because the evaporator outlet is located before the bend and is therefore 
+not influenced by the flow resistance. When the bending angle β in -
+creases from 0
+◦
+to 30
+◦
+, the overall time increases by 62.70 %, with Stage 
+II increasing by 47.02 % and Stage III by 16.2 %. This suggests that when 
+the UFLHP experiences the bending, the flow resistance primarily affects 
+the stages of vapor transfer to the condenser and liquid return to the 
+evaporator. When the bending angle β increases from 30
+◦
+to 60
+◦
+and 
+from 60
+◦
+to 90
+◦
+, the overall times increase by 31.89 % and 23.17 %, 
+respectively. In these two cases, the increase in Stage III accounts for 
+over 77 % of the total time increase. This is because the prolonged time 
+in Stage II leads to an excessively high temperature at the evaporator 
+inlet T
+Evap-in
+, coupled with a reduced liquid return flow caused by the 
+bending, which delays the time for the UFLHP to reach a stable state 
+(Stage III).
+3.3. Steady-state characteristics
+The criterion for achieving a steady state is indicated by slight 
+changes in temperature, where the temperature remains stable over time 
+or fluctuates within a defined range at the constant power input. Fig. 10
+(a) and 10(b) show the temperature variation trends of different com -
+ponents of the UFLHP under horizontal conditions ( α = 0
+◦
+, β = 0
+◦
+) with 
+different heat loads Q
+in 
+(1 to 5 W). The results indicate that as the heat 
+load increases, the temperature of the evaporator continues to rise. At 
+Q
+in 
+= 1 W, there is no significant temperature change in the various 
+sections of the condenser, indicating that the UFLHP has not successfully 
+started. Only the temperatures at the outlet and inlet of the evaporator 
+show the increase, indicating that the heat is being transferred to the 
+evaporator surface through thermal conduction, while the evaporator 
+surface dissipates heat via convection. When Q
+in 
+= 2 W, significant 
+temperature rises are observed in sections C-1 and C-2 of the condenser, 
+while temperature changes at C-3 and C-4 are relatively small. This in -
+dicates that vapor has been discharged from the evaporator. Due to the 
+lower heat load, the vapor is limited. Thus, the working fluid has tran -
+sitioned to the liquid phase at the front of the condenser, with some fluid 
+refluxing into the evaporator outlet. Although a small amount of 
+working fluid enters the evaporator inlet due to the action of the sec -
+ondary capillary wick, it fails to effectively counteract the evaporator ’ s 
+thermal conduction effect, resulting in a continuous rise in the evapo -
+rator inlet temperature T
+Evap-in
+. At Q
+in 
+= 3 W, obvious temperature in -
+creases occur in all sections of the condenser (C-1, C-2, C-3, and C-4), as 
+the liquid working fluid successfully refluxes to the evaporator inlet, 
+making its temperature T
+Evap-in 
+lower than that at Q
+in 
+= 2 W. This in -
+dicates that the overall circulation of the UFLHP has been established. 
+Under the conditions of a higher heat load, the overall temperature of 
+the UFLHP further increases. At a heat load of 4 W and 5 W, the 
+Fig. 10. Effect of Input Power on Heat Transfer Performance of UFLHP( α = 0
+◦
+, β = 0
+◦
+).
+Q. Cui et al.                                                                                                                                                                                                                                      Energy Conversion and Management 325 (2025) 119332 
+11 
+
+===== PAGE 12 =====
+evaporator temperature reaches 65.82 
+◦
+C and 72.15 
+◦
+C, respectively, 
+reinforcing the establishment of the UFLHP ’ s overall circulation.
+Fig. 10 (c) illustrates the internal thermal resistance distribution of 
+the UFLHP under different heating power levels. The results show that 
+when Q
+in 
+is 1 W, the thermal resistance R
+Evap 
+of the evaporator accounts 
+for 89 % of the UFLHP thermal resistance R
+UFLHP
+. This validates the 
+earlier point that the UFLHP failed to start under this condition and 
+relied solely on the evaporator for convective heat dissipation. When Q
+in 
+exceeds 2 W, the condenser thermal resistance R
+Cond 
+becomes dominant, 
+accounting for over 67 %. With the increase in heating power, the 
+UFLHP thermal resistance R
+UFLHP 
+and the condenser thermal resistance 
+R
+Cond 
+both decrease continuously. The evaporator thermal resistance 
+R
+Evap 
+and the vapor line thermal resistance R
+Evap-out 
+have small influence 
+and remain at a low level with small fluctuations. When Q
+in 
+reaches 5 W, 
+the UFLHP thermal resistance R
+UFLHP 
+is 2.48 K/W. Fig. 10 (d) illustrates 
+the total thermal resistance R
+total
+, the condenser thermal resistance R
+Env
+, 
+and the equivalent thermal conductivity λ
+eff 
+of the UFLHP under 
+different heat load conditions. The research indicates that with the in -
+crease in heating power, the total thermal resistance R
+total 
+and UFLHP 
+thermal resistance R
+UFLHP 
+consistently decrease, while the equivalent 
+thermal conductivity λ
+eff 
+shows an opposite trend, increasing as the 
+heating power rises. When Q
+in 
+reaches 5 W, the system thermal 
+resistance R
+total 
+is 9.83 K/W, and the equivalent thermal conductivity λ
+eff 
+is 10,273.27 W/(m ⋅ K). Graphene is one of the materials with the highest 
+thermal conductivity known today, but its thermal conductivity is only 
+about 5,000 W/(m ⋅ K) [40] .
+It is noteworthy that the condenser-side thermal resistance R
+Env 
+initially increases with the heat load and then stabilizes after the heat 
+load Q
+in 
+reaches 3 W. This is because the condensible fluid forms a stable 
+condensation layer during flow. As the heat load increases even though 
+more vapor flows into the condenser, the condensation layer maintains a 
+relatively stable flow, which helps enhance heat transfer and maintain a 
+relatively stable temperature differential.
+When the inlet heat transfer rate is set at 5 W, the elevated evapo -
+rator temperature, along with high internal vapor flow and pressure, 
+increases the risk of leakage at the connection between the evaporator 
+and the PTFE tubing. Therefore, Q
+in 
+= 4 W was selected for investigation 
+in the tilt and bending experiments. Fig. 11 (a) illustrates the tempera -
+ture variation trends of the various components within the UFLHP under 
+the condition of Q
+in 
+= 4 W and an inclination angle β of 0
+◦
+. Fig. 11 (b) 
+and 11(c) present the corresponding thermal resistance and equivalent 
+thermal conductivity of the UFLHP under varied inclination angles α . 
+The research findings indicate that the thermal resistance of the 
+condenser R
+Cond 
+consistently dominates the UFLHP thermal resistance 
+Fig. 11. Effect of Rotation Angle on Heat Transfer Performance of UFLHP( Q
+in 
+= 4 W, β = 0
+◦
+).
+Q. Cui et al.                                                                                                                                                                                                                                      Energy Conversion and Management 325 (2025) 119332 
+12 
+
+===== PAGE 13 =====
+R
+UFLHP
+. In contrast, the thermal resistance of the evaporator R
+Evap 
+and 
+the vapor line resistance R
+Evap-out 
+exhibit minimal influence from the tilt 
+angle α , remaining subject to only slight fluctuations at relatively low 
+levels. As the tilt angle α increases, the UFLHP thermal resistance R
+UFLHP 
+decreases due to the reduction in condenser thermal resistance R
+Cond
+. At 
+the tilt angle α of 90
+◦
+, the UFLHP resistance R
+UFLHP 
+is measured at 2.81 
+K/W. This can be attributed to the involvement of gravity in the working 
+fluid ’ s circulation process, which promotes the return flow of the liquid 
+working fluid, resulting in a decrease in the evaporator inlet tempera -
+ture T
+Evap-in 
+and in heat loss Q
+leak
+. Consequently, a greater amount of 
+heat allocated for the evaporation of the working fluid leads to an in -
+crease in the average temperature of the condenser. Notably, as the tilt 
+angle α increases, the equivalent thermal conductivity λ
+eff 
+consistently 
+rises, while the overall thermal resistance R
+total 
+continues to decline. At 
+α = 90
+◦
+, the total thermal resistance R
+total 
+is recorded at 10.04 K/W, with 
+the equivalent thermal conductivity λ
+eff 
+attaining a value of 9,072.85 W/ 
+(m ⋅ K), reflecting an augmentation of 109.26 % compared to α = 0
+◦
+. 
+However, a slight increase in the thermal resistance R
+Env 
+of the 
+condenser is observed, due to the suboptimal contact between the liquid 
+inside the condenser and the wall surface under gravity-assisted return 
+flow conditions. This leads to an escalation in contact thermal 
+Fig. 12. The difference between a cold start and a hot start.
+Fig. 13. Effect of Bending Angle on Heat Transfer Performance of UFLHP ( Q
+in 
+= 4 W, α = 90
+◦
+).
+Q. Cui et al.                                                                                                                                                                                                                                      Energy Conversion and Management 325 (2025) 119332 
+13 
+
+===== PAGE 14 =====
+resistance.
+Under the same operating conditions ( Q
+in 
+= 4 W, α = 0
+◦
+, β = 0
+◦
+), the 
+performance of the UFLHP heat startup experiment is superior to that of 
+the cold startup experiment. The evaporator temperature T
+Evap 
+during 
+heat startup is reduced by 1.88 
+◦
+C compared to the cold startup, while 
+the temperature T
+C-3 
+increases by 20.38 
+◦
+C, as illustrated in Fig. 12 . The 
+primary reasons for this performance difference can be summarized in 
+two points: 1. Improved operating performance during heat startup: 
+During the heat startup, the operational performance of the UFLHP 
+continues to enhance as the heat load increases. Particularly, at a heat 
+input of Q
+in 
+= 3 W, the UFLHP has already achieved efficient operation. 
+This efficiency allows the UFLHP to reach equilibrium more quickly 
+when Q
+in 
+is set at 4 W, and it also facilitates the maintenance of a pos -
+itive circulation. 2. Temperature overshoot in cold startup: In the cold 
+startup process, it is prone to temperature overshoot, and the time 
+required to establish circulation is longer. The temperature at the 
+evaporator inlet ( T
+Evap-in
+) is relatively high due to the influence of heat 
+conduction, causing a portion of the returning working fluid to flow in 
+the reverse direction and counter to the forward flow. This interaction 
+results in performance degradation during the cold startup phase. 
+Furthermore, compared to cold startup, heat startup generates lower 
+mechanical and thermal stresses on the UFLHP, which is beneficial for 
+extending the lifespan of the equipment.
+Fig. 13 (a) illustrates the temperature variation trends of various 
+components of the UFLHP under the conditions of Q
+in 
+= 4 W and α = 90
+◦
+for different bending angles β . Fig. 13 (b) and 13(c) present the corre -
+sponding thermal resistances and equivalent thermal conductivity. The 
+research indicates that as the bending angle β increases, the operational 
+performance of the UFLHP progressively deteriorates, resulting in a 
+continuous rise in the evaporator temperature T
+Evap
+. Both the UFLHP 
+thermal resistance R
+UFLHP 
+and the total thermal resistance R
+total 
+exhibit a 
+continual increase, while the equivalent thermal conductivity λ
+eff 
+dem -
+onstrates a persistent decline. At β = 90
+◦
+, the system thermal resistance 
+R
+UFLHP 
+reaches 4.94 K/W, representing a 75.96 % increase, while the 
+equivalent thermal conductivity λ
+eff 
+decreases to 5,156.72 W/(m ⋅ K), 
+indicating a reduction of 43.17 %. This degradation can be attributed to 
+the increased flow resistance of the working fluid caused by the bends in 
+the vapor and liquid lines. Firstly, this augmented resistance impedes 
+the vapor from traversing from the evaporator to the condenser for 
+cooling. Consequently, the temperature difference between the evapo -
+rator outlet Evap-out and the condenser inlet C-1 escalates from 0.97 
+◦
+C 
+(at β = 0
+◦
+) to 6.06 
+◦
+C (at β = 90
+◦
+). The thermal resistance of the evap -
+orator R
+Evap 
+and the thermal resistance of the vapor line R
+Evap-out 
+in -
+crease by 138.12 % and 524.74 %, respectively, compared to the 
+scenario with β = 0
+◦
+. Furthermore, the difficulty encountered by the 
+condensed liquid phase in returning to the evaporator inlet exacerbates 
+the rise in the evaporator inlet temperature T
+Evap-in
+. In the case of 
+bending angle β = 90
+◦
+, the evaporator inlet temperature T
+Evap-in 
+in -
+creases by 4.39 
+◦
+C (13.14 %) compared to the condition at β = 0
+◦
+.
+Fig. 14 (a) and 14(b) compare the evaporator temperature and 
+thermal resistance of the UFLHP and ultra-thin LHPs under the same 
+heat flux density, with the corresponding experimental conditions 
+shown in Table 5 . When both the evaporator and condenser are posi -
+tioned on the same horizontal plane, it can be observed that the UFLHP 
+is able to maintain a relatively low evaporator temperature and thermal 
+resistance under higher heat flux density conditions. While ensuring the 
+flexibility, the UFLHP demonstrates excellent heat dissipation perfor -
+mance. In the comparative study of flexible devices, Table 6 presents a 
+comparison of the performance between the UFLHP and ultra-thin 
+flexible heat pipes. The results indicate that the UFLHP exhibits a 
+Fig. 14. Comparison of the performance of UFLHP and ultra-thin LHP with the same heat flow density.
+Table 5 
+Comparison of the effect of ultra-thin LHP under different experimental 
+conditions.
+References Thickness/ 
+mm
+Cooling R
+min
+/ ℃ ⋅ W
+  1 
+(q 
+≤ 5 W/cm
+2
+)
+T
+max
+/ ℃ (Q ≤ 5 
+W)
+UFLHP 0.7 Air cooling 
+(23 ℃ )
+2.48 (q = 5 W/ 
+cm
+2
+)
+72.15 (q = 5 
+W/ cm
+2
+)
+Takuji [37] 0.3 Air cooling 
+(20 ℃ )
+8.67 (q = 5 W/ 
+cm
+2
+)
+80.98 (q = 5 
+W/ cm
+2
+)
+Nagayo
+[41]
+3.0 Air cooling 
+(22 ℃ )
+5.54 (q = 5 W/ 
+cm
+2
+)
+67.65 (q = 5 
+W/ cm
+2
+)
+Zhou [42] 1.0 Air cooling 
+(23 ℃ )
+7.11 (q = 4.16 
+W/ cm
+2
+)
+58.29 (q = 4.16 
+W/ cm
+2
+)
+Ueno [43] 1.0 Air cooling 
+(20 ℃ )
+3.42 (q = 3.5 
+W/ cm
+2
+)
+111.75 (q = 3.5 
+W/ cm
+2
+)
+Table 6 
+Performance comparison between UFLHP and ultra-thin flexible heat pipe.
+References Thickness/ 
+mm
+Working 
+fluid
+R
+min
+/ ℃ ⋅ 
+W
+  1
+Equivalent thermal 
+conductivity W/(m ⋅ K)
+UFLHP 0.7 Ethanol 2.48 10273.27
+Liu [9] 1.47 Water 0.525 1499
+Lee [44] 0.3 Water 11.92 541
+Lee [7] 0.67 Water Not 
+mentioned
+3000
+Hsieh [14] 4 Water 5 Not mentioned
+Lim [45] 1 HFE-7000 2.41 Not mentioned
+Q. Cui et al.                                                                                                                                                                                                                                      Energy Conversion and Management 325 (2025) 119332 
+14 
+
+===== PAGE 15 =====
+significant advantage in terms of equivalent thermal conductivity.
+4. Conclusions
+This study proposes and fabricates a novel ultra-thin (thickness of 
+0.7 mm) flexible loop heat pipe (UFLHP) to address the heat transfer 
+issues associated with crossed hinges. The research focuses on the 
+impact of the tilt angle and bending angle of the UFLHP on its thermal 
+performance, leading to the following conclusions:
+The UFLHP uses flexible polytetrafluoroethylene (PTFE) for the 
+vapor and liquid lines, accommodating a maximum thermal input of 5 
+W. At this input, the evaporator temperature reaches 72.15 
+◦
+C, with a 
+thermal resistance of 2.48 K/W and an equivalent thermal conductivity 
+of 10273.27 W/(m ⋅ K).
+The UFLHP exhibits improved heat transfer performance with an 
+increasing tilt angle α , reaching optimal conditions at 90
+◦
+and a heat 
+load of 4 W, yielding an evaporator temperature of 63.16 
+◦
+C, thermal 
+resistance of 2.81 K/W, and equivalent thermal conductivity of 
+9,072.85 W/(m ⋅ K). In contrast, performance declines as the bending 
+angle β increases; at 90
+◦
+, the evaporator temperature rises to 66.49 
+◦
+C, 
+thermal resistance increases by 75.96 % to 4.94 K/W, and equivalent 
+thermal conductivity decreases by 43.17 % to 5,156.12 W/(m ⋅ K).
+Under the same conditions, the UFLHP performs better during hot 
+starts than cold starts, with a 1.88 
+◦
+C lower evaporator temperature. 
+These findings are vital for optimizing ultra-thin flexible loop heat pipes, 
+particularly regarding tilt angle, bending angle, and startup conditions 
+in practical applications.
+CRediT authorship contribution statement
+Qingjie Cui: Writing – original draft, Validation, Investigation, Data 
+curation, Conceptualization. Xiang Ma: Supervision, Project adminis -
+tration, Funding acquisition. Ziyi You: Supervision, Resources, Funding 
+acquisition. Xiaoping Yang: Writing – review & editing, Visualization, 
+Validation, Supervision. Yonghai Zhang: Supervision, Project admin -
+istration. Jinjia Wei: Supervision, Resources.
+Declaration of competing interest
+The authors declare the following financial interests/personal re -
+lationships which may be considered as potential competing interests: 
+Yang reports financial support was provided by National Natural Science 
+Foundation of China. If there are other authors, they declare that they 
+have no known competing financial interests or personal relationships 
+that could have appeared to influence the work reported in this paper.
+Acknowledgement
+The research was supported by the National Natural Science Foun -
+dation of China (No. 52006166, U2141218).
+Data availability
+Data will be made available on request. 
+References
+[1] Ma X, Ji X, Wang J, et al. Flow boiling heat transfer characteristics on micro-pin- 
+finned surfaces in a horizontal narrow microchannel [J]. Int J Heat Mass Transf 
+2022;194 .
+[2] Chen G, Tang Y, Wan Z, et al. Heat transfer characteristic of an ultra-thin flat plate 
+heat pipe with surface-functional wicks for cooling electronics [J]. Int Commun 
+Heat Mass Transfer 2019;100:12 – 9 .
+[3] Babin BR, Peterson GP. Experimental investigation of a flexible bellows heat pipe 
+for cooling discrete heat sources [J]. J Heat Transf-Trans Asme 1990;112:602 – 7 .
+[4] Bugby D, Marland B, Stouffer C, et al. Across-gimbal and miniaturized cryogenic 
+loop heat pipes [J]. AIP Conf Proc 2003;654(1):218 – 26 .
+[5] Wang YX, Peterson GP. Capillary evaporation in microchanneled polymer films [J]. 
+J Thermophys Heat Transfer 2003;17(3):354 – 9 .
+[6] WU G W, SHIH W-P, CHEN S-L. Lamination and Characterization of a Pet Flexible 
+Micro Heat Pipe, F, 2011 [C].
+[7] Lee D, Byon C. Fabrication and characterization of pure-metal-based 
+submillimeter-thick flexible flat heat pipe with innovative wick structures [J]. Int J 
+Heat Mass Transf 2018;122:306 – 14 .
+[8] Yu J, Li Y, Chen Z, et al. Experimental investigation of the thermal characteristics 
+of a novel pure-metal-based flexible ultrathin vapour chamber [J]. Appl Therm Eng 
+2023;227 .
+[9] Liu C, Li Q, Fan D. Fabrication and performance evaluation of flexible flat heat 
+pipes for the thermal control of deployable structure [J]. Int J Heat Mass Transf 
+2019;144 .
+[10] SASAKI Y, KIMURA Y, NAMBA K, et al. THE ULTRA-THIN SHEET-SHAPED 
+HEATPIPE ’ PERA-FLEX ’ ; proceedings of the International Heat Pipe Conference: 
+Preprint vol2; 20040921-25; Shanghai(CN), F, 2004 [C].
+[11] Oshman C, Li Q, Liew L-A, et al. Flat flexible polymer heat pipes [J]. J Micromech 
+Microeng 2013;23(1):015001 .
+[12] Oshman C, Li Q, Liew L-A, et al. Thermal performance of a flat polymer heat pipe 
+heat spreader under high acceleration [J]. J Micromech Microeng 2012;22(4): 
+045018 .
+[13] Oshman C, Shi B, Li C, et al. The development of polymer-based flat heat pipes [J]. 
+J Microelectromech Syst 2011;20(2):410 – 7 .
+[14] Hsieh S-S, Yang Y-R. Design, fabrication and performance tests for a polymer-based 
+flexible flat heat pipe [J]. Energ Conver Manage 2013;70:10 – 9 .
+[15] Yang C, Song C, Shang W, et al. Flexible heat pipes with integrated bioinspired 
+design [J]. Prog Nat Sci: Mater Int 2015;25(1):51 – 7 .
+[16] Li JK, Du WJ, Jiang SL, et al. Expression of ADAM-15 in rat myocardial infarction 
+[J]. Int J Exp Pathol 2009;90(3):347 – 54 .
+[17] Hong S, Wang S, Zhang L. Effect of groove configuration on two-phase flow 
+instability for ultra-thin looped heat pipes in thermal management system [J]. Int J 
+Therm Sci 2017;121:369 – 80 .
+[18] Gabsi I, Maalej S, Zaghdoudi MC. Thermal performance modeling of loop heat 
+pipes with flat evaporator for electronics cooling [J]. Microelectron Reliab 2018; 
+84:37 – 47 .
+[19] Gully P, Mo Q, Yan T, et al. Thermal behavior of a cryogenic loop heat pipe for 
+space application [J]. Cryogenics 2011;51(8):420 – 8 .
+[20] Okamoto A, Miyakita T, Nagano H. On-orbit experiment plan of loop heat pipe and 
+the test results of ground test [J]. Microgravity Sci Technol 2019;31(3):327 – 37 .
+[21] Wang X, Liu Y, Tian T, et al. Directly air-cooled compact looped heat pipe module 
+for high power servers with extremely low power usage effectiveness [J]. Appl 
+Energy 2022;319:119279 .
+[22] Swanson TD, Birur GC. NASA thermal control technologies for robotic spacecraft 
+[J]. Appl Therm Eng 2003;23(9):1055 – 65 .
+[23] Riehl RR, Dutra T. Development of an experimental loop heat pipe for application 
+in future space missions [J]. Appl Therm Eng 2005;25(1):101 – 12 .
+[24] Maydanik Y, Chernysheva M, Vershinin S. High-capacity loop heat pipe with flat 
+evaporator for efficient cooling systems [J]. J Thermophys Heat Transfer 2020;34: 
+1 – 11 .
+[25] Xue Z, Qu W, Xie M. High performance loop heat pipe with flat evaporator for 
+energy-saving cooling systems of supercomputers [J]. J Heat Transf-Trans Asme 
+2020;142 .
+[26] Weng C, Wang Z, Xiang J, et al. Numerical and experimental investigations of the 
+micro-channel flat loop heat pipe (MCFLHP) heat recovery system for data centre 
+cooling and heat recovery [J]. J Build Eng 2021;35 .
+[27] Huang B-J, Hsu P-C, Tsai R-J, et al. A thermoelectric generator using loop heat pipe 
+and design match for maximum-power generation [J]. Appl Therm Eng 2015;91: 
+1082 – 91 .
+[28] Yang Z, Zhang Y, Bai L, et al. Experimental study on the thermal performance of an 
+ammonia loop heat pipe using a rectangular evaporator with longitudinal 
+replenishment [J]. Appl Therm Eng 2022;207:118199 .
+[29] Phillips AL, Wert KL. Loop heat pipe anti icing system development program 
+summary [Z]. SAE Int 2000. https://doi.org/10.4271/2000-01-2493 .
+[30] Zhao X, Wang Z, Tang Q. Theoretical investigation of the performance of a novel 
+loop heat pipe solar water heating system for use in Beijing, China [J]. Appl Therm 
+Eng 2010;30(16):2526 – 36 .
+[31] Chiou JP. The effect of nonuniform fluid flow distribution on the thermal 
+performance of solar collector [J]. Sol Energy 1982;29(6):487 – 502 .
+[32] Odagiri K, Nagano H. Investigation on liquid-vapor interface behavior in capillary 
+evaporator for high heat flux loop heat pipe [J]. Int J Therm Sci 2019;140:530 – 8 .
+[33] Wang S, Huo J, Zhang X, et al. Experimental study on operating parameters of 
+miniature loop heat pipe with flat evaporator [J]. Appl Therm Eng 2012;40: 
+318 – 25 .
+[34] Qu Y, Zhou K, Zhang KF, et al. Effects of multiple sintering parameters on the 
+thermal performance of bi-porous nickel wicks in Loop Heat Pipes [J]. Int J Heat 
+Mass Transf 2016;99:638 – 46 .
+[35] Watanabe N, Mizutani T, Nagano H. High-performance energy-saving miniature 
+loop heat pipe for cooling compact power semiconductors [J]. Energ Conver 
+Manage 2021;236 .
+[36] Shioga T, Mizuno Y, Nagano H. Operating characteristics of a new ultra-thin loop 
+heat pipe [J]. Int J Heat Mass Transf 2020;151 .
+[37] Mizutani T, Watanabe N, Aso S, et al. Experimental and analytical investigation of 
+a 0.3-mm-thick loop heat pipe for 10 W-class heat dissipation [J]. Int J Heat Mass 
+Transf 2022;193:122950 .
+Q. Cui et al.                                                                                                                                                                                                                                      Energy Conversion and Management 325 (2025) 119332 
+15 
+
+===== PAGE 16 =====
+[38] Xu G, Shao B, Li N, et al. Design and thermal characteristics analysis of a high- 
+performance flexible loop heat pipe [J]. Chem Industry Eng Prog 2022;41(10): 
+5228–35 .
+[39] Lee J, Joung W. Operating characteristics of a flat evaporator loop heat pipe having 
+a flexible heat transport path [J]. J Mech Sci Technol 2022;36:1–17 .
+[40] Balandin AA, Ghosh S, Bao W, et al. Superior thermal conductivity of single-layer 
+graphene [J]. Nano Lett 2008;8(3):902–7 .
+[41] Fukushima K, Nagano H. New evaporator structure for micro loop heat pipes [J]. 
+Int J Heat Mass Transf 2017;106:1327–34 .
+[42] Zhou G, Li J, Jia Z. Power-saving exploration for high-end ultra-slim laptop 
+computers with miniature loop heat pipe cooling module [J]. Appl Energy 2019; 
+239:859–75 .
+[43] Ueno A, Tomita S, Nagano H. Experimental investigation on a thin-loop heat pipe 
+with new evaporator structure [J]. J Heat Transfer 2021;143(6) .
+[44] Lewis R, Liew L-A, Xu S, et al. Microfabricated ultra-thin all-polymer thermal 
+ground planes [J]. Sci Bull 2015;60(7):701–6 .
+[45] Lim J, Kim SJ. Fabrication and experimental evaluation of a polymer-based flexible 
+pulsating heat pipe [J]. Energ Conver Manage 2018;156:358–64 .
+Q. Cui et al.                                                                                                                                                                                                                                      Energy Conversion and Management 325 (2025) 119332 
+16 
